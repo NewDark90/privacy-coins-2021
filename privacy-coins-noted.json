@@ -1,0 +1,729 @@
+[
+    {
+        "name": "Monero",
+        "ticker": "XMR",
+        "market_cap": 4138950012.4408693,
+        "tags": [
+            "mineable",
+            "pow",
+            "medium-of-exchange",
+            "ringct"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "references": [
+            "https://coingeek.com/monero-is-traceable-using-new-ciphertrace-tool/",
+            "https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/",
+            "https://www.financemagnates.com/cryptocurrency/news/is-monero-still-a-privacy-coin-ciphertrace-files-2nd-xmr-tracing-patent/",
+            "https://old.reddit.com/r/Monero/comments/72kp2f/is_monero_truly_untraceable_or_is_there_just_a/",
+            "https://bitinfocharts.com/comparison/monero-transactionfees.html#6m",
+            "https://www.monero.how/monero-transaction-fees",
+            "https://monero.stackexchange.com/questions/405/how-many-transactions-per-second-can-the-monero-network-handle"
+        ],
+        "transactions": {
+            "fee": "~0.000011 XMR, ~0.0025 - 0.10 USD",
+            "speed": "30 min",
+            "per_second": ">1000"
+        },
+        "privacy_type": "Full",
+        "privacy_tech": "CryptoNote,RingCT",
+        "pitch": "Privacy is achieved through a few distinctive features. Whereas each Bitcoin in circulation has its own serial number, meaning that cryptocurrency usage can be monitored, XMR is completely fungible. By default, details about senders, recipients and the amount of crypto being transferred are obscured — and Monero advocates says this offers an upper hand over rival privacy coins such as Zcash, which are “selectively transparent.” Obfuscation is achieved through the use of ring signatures. Here, past transaction outputs are picked from the blockchain and act as decoys, meaning that outside observers can’t tell who signed it. To ensure that transactions cannot be linked to one another, stealth addresses are created for every single transaction that are only used once.",
+        "impression": "The Bitcoin of privacy coins. The market leader that's more of a store of value than a currency. While transaction fees are high relative to most others listed, they're still very reasonable, especially compared to BTC and ETH. Unless there's major problems that show up with the technology, it will probably stay a major/top coin. If Bitcoin's market dominance has taught me anything, even mildly flawed tech can be a juggernaut industry leader if it's the standard people build around."
+    },
+    {
+        "name": "Dash",
+        "ticker": "DASH",
+        "market_cap": 2372103097.6528654,
+        "tags": [
+            "mineable",
+            "hybrid-pow-pos",
+            "x11",
+            "medium-of-exchange",
+            "privacy",
+            "masternodes"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "transactions": {
+            "fee": "~0.01 USD",
+            "speed": "~2.5sec",
+            "per_second": "56"
+        },
+        "privacy_type": "Opt-In",
+        "privacy_tech": "PrivateSend",
+        "references": [
+            "https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private",
+            "https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/",
+            "https://coinsutra.com/transaction-speeds/",
+            "https://bitinfocharts.com/comparison/dash-transactionfees.html"
+        ],
+        "pitch": "Dash is an open-source blockchain and cryptocurrency focused on offering a fast, cheap global payments network that is decentralized in nature. According to the project's white paper, Dash seeks to improve upon Bitcoin (BTC) by providing stronger privacy and faster transactions. Dash, whose name comes from \"digital cash,\" was launched in January 2014 as a fork of Litecoin (LTC). Since going live, Dash has grown to include features such as a two-tier network with incentivized nodes, including \"masternodes,\" and decentralized project governance; InstantSend, which allows for instantly settled payments; ChainLocks, which makes the Dash blockchain instantly immutable; and PrivateSend, which offers additional optional privacy for transactions.",
+        "impression": "It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implemention. Barely a privacy coin, if that."
+    },
+    {
+        "name": "Decred",
+        "ticker": "DCR",
+        "market_cap": 2239982471.362073,
+        "tags": [
+            "mineable",
+            "hybrid-pow-pos",
+            "blake256",
+            "medium-of-exchange",
+            "store-of-value",
+            "privacy",
+            "dao"
+        ],
+        "privacy_type": "Opt-In",
+        "privacy_tech": "CoinShuffle++",
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "transactions": {
+            "per_second": "14",
+            "speed": "30 min",
+            "fee": "~0.01USD"
+        },
+        "references": [
+            "https://blog.decred.org/2019/08/28/Iterating-Privacy/",
+            "https://blog.decred.org/2020/06/02/A-More-Private-Way-to-Stake/",
+            "https://medium.com/@blockblogfr/top-6-cryptocurrencies-with-the-highest-median-fees-f0d1662a16aa"
+        ],
+        "impression": "This coin's public ledger has amounts, senders, and recipients. Staking uses a mixnet. Transactions can use a baked in CoinJoin implementation. I don't see great overall use cases given the lackluster technical specs (14 TPS is yikes), and the mediocre privacy features compared to others here. "
+    },
+    {
+        "name": "Zcash",
+        "ticker": "ZEC",
+        "market_cap": 1724640307.3210351,
+        "tags": [
+            "mineable",
+            "pow",
+            "equihash",
+            "medium-of-exchange",
+            "zero-knowledge-proofs",
+            "binance-chain"
+        ],
+        "coinlore": true,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_type": "Opt-In",
+        "privacy_tech": "zk-SNARKs",
+        "transactions": {
+            "fee": "0.0001 ZEC, ~0.01USD",
+            "per_second": "~27",
+            "speed": "2.5min block time"
+        },
+        "references": [
+            "https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/",
+            "https://cointelegraph.com/news/researchers-claim-999-of-zcash-transactions-are-traceable",
+            "https://old.reddit.com/r/zec/comments/662iq4/noob_question_whats_zcash_network_transactions/?st=JGWQXK4K&sh=3add5e26"
+        ],
+        "impression": "Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private), so if the rest of the transactions are public in some capacity. Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin."
+    },
+    {
+        "name": "DigiByte",
+        "ticker": "DGB",
+        "market_cap": 872176085.1752247,
+        "tags": [
+            "mineable",
+            "pow",
+            "multiple-algorithms",
+            "medium-of-exchange",
+            "privacy",
+            "payments"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "transactions": {
+            "fee": "",
+            "per_second": "",
+            "speed": "15 second block time"
+        },
+        "privacy_tech": "TOR",
+        "privacy_type": "?",
+        "pitch": "DigiByte is a modification of Bitcoin which aims to diversify security, speed and capacity possibilities. Its first incarnation was as an open source blockchain and associated cryptocurrency, DGB. The network has five separate algorithms which help to maintain security and help prevent ASIC miners from commandeering too much power. Later, another offering, DigiAssets, appeared, with DGB as its native token. DigiAssets appeals to those developers looking to launch digital assets, decentralized applications (DApps) and encode the necessary corresponding smart contracts. All governance structures for DigiByte are run on a voluntary basis, in line with the thesis that the network should be open source and publicly accessible. Transaction fees in DGB are paid to miners for validating the blockchain.",
+        "impression": "Can't find much in the way of good info on this project. Doesn't seem like a privacy coin, just has a TOR implementation."
+    },
+    {
+        "name": "Horizen",
+        "ticker": "ZEN",
+        "market_cap": 562869125.9559923,
+        "tags": [
+            "mineable",
+            "medium-of-exchange",
+            "content-creation",
+            "privacy"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "transactions": {
+            "fee": "?",
+            "per_second": "?",
+            "speed": "?"
+        },
+        "privacy_tech": "zk-SNARKs",
+        "privacy_type": "Opt-In",
+        "pitch": "Horizen uses a sidechain architecture that can open up a myriad of potential real-world use cases. This cross-chain transfer protocol allows for decentralized sidechains. These are separate blockchains that are pegged to the parent blockchain that can run simultaneously.",
+        "impression": "Opt-In zk-SNARKs implementation... wait, is this ZCash? No? Ok. Blockchains on blockchains? Sounds cool, but I don't know what to make of it. Hard to dig up details on this one."
+    },
+    {
+        "name": "Verge",
+        "ticker": "XVG",
+        "market_cap": 422026832.12505347,
+        "tags": [
+            "mineable",
+            "multiple-algorithms",
+            "medium-of-exchange",
+            "privacy"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "references": [
+            "https://medium.com/@sashakolupaev/what-is-the-wraith-protocol-bd1dfb289cda",
+            "https://www.coinbureau.com/review/verge-xvg/",
+            "https://old.reddit.com/r/CryptoCurrency/comments/avvmb9/verge_xvg_has_lost_94_percent_of_its_value_after/"
+        ],
+        "transactions": {
+            "speed": "5-10sec",
+            "per_second": "100(2000 with RSK?)",
+            "fee": "0.1 XVG, ~0.003 USD"
+        },
+        "privacy_type": "Mixed/Optional",
+        "privacy_tech": "Wraith Protocol, I2P/Tor",
+        "pitch": "Verge was created as a way to fulfill Bitcoin founder Satoshi Nakamoto's vision of a decentralized, trustless electronic payment system while also providing more privacy than is available with Bitcoin. In order to accomplish this goal, Verge relies on a series of key privacy features. It automatically routes all traffic to and from its vergePay wallet through the Tor network, anonymizing the traffic and masking IP addresses. It also offers dual-key stealth addressing, through which senders can create one-time wallet addresses on behalf of recipients to help protect the recipients' privacy, as well as using atomic swaps to power trustless peer-to-peer cross-blockchain transactions.",
+        "impression": "Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. That said, this coin has some pretty good transaction stats and quite a few great features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. This one looks pretty good for an Opt-In coin."
+    },
+    {
+        "name": "Secret",
+        "ticker": "SCRT",
+        "market_cap": 207092091.46841127,
+        "tags": [
+            "defi"
+        ],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "transactions": {
+            "fee": "?",
+            "per_second": "?",
+            "speed": "?"
+        },
+        "references": [
+            "https://www.coindesk.com/enigma-blockchain-has-a-new-name-and-a-privacy-boost-in-the-works",
+            "https://forum.scrt.network/t/typical-transaction-time-and-costs/906"
+        ],
+        "pitch": "Secret Network is the first blockchain with privacy-preserving smart contracts. Applications built on Secret Network utilize encrypted data without exposing it to anyone, even the nodes in the network. Secret Network empowers developers to build decentralized, permissionless, privacy-preserving applications - Secret Apps. For blockchain technology to reach global adoption, users and organizations need granular control over their data. Private by default - transparent when needed - Secret Network's programmable privacy delivers this level of control, securing and scaling Web 3.0.",
+        "impression": "Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has it's own blockchain now. Seems like a niche use case, but also a necessary one."
+    },
+    {
+        "name": "Haven Protocol",
+        "ticker": "XHV",
+        "market_cap": 192503322.6676546,
+        "tags": [
+            "defi"
+        ],
+        "coinlore": true,
+        "coinmarketcap": false,
+        "cryptoslate": false,
+        "isPrivacyCoin": true,
+        "transactions": {
+            "fee": "0.2%-20%",
+            "per_second": "",
+            "speed": "168-6hrs",
+            "info": "https://havenprotocol.org/knowledge/transaction-fees/"
+        },
+        "references": [
+            "https://havenprotocol.org/knowledge/transaction-fees/"
+        ],
+        "privacy_tech": "RingCT",
+        "pitch": "Haven Protocol is similar to an offshore bank where users can create private tokens that represent stable and volatile assets, including commodities and fiat currencies (such as USD). The protocol is based on Monero, which focuses on secure, private and untraceable transactions. As a result, most of the features of Monero extend to the Haven protocol, including the bulletproofs and other privacy tech. The base currency of Haven is the XHV, which is burnt to provide users with private, untraceable, synthetic assets and commodities called xAssets. The network uses a “mint and burn” process to provide users with untraceable digital assets with standard market pricing and real asset-pegged value storage. Simply, users can burn Haven (XHV) for Haven Dollars (xUSD), which is a synthetic stablecoin.",
+        "impression": "Uses XMR tech. Has high fees and long transaction times. The pitch really does say it all really. I love the inherit contrictory nature of what this one promotes versus what it explicitly says. You're an \"offshore bank\", but the FAQ has this line: \"Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws.\", lol"
+    },
+    {
+        "name": "Phala Network",
+        "ticker": "PHA",
+        "market_cap": 162957877.72101587,
+        "tags": [
+            "ai-big-data",
+            "privacy",
+            "substrate",
+            "dot-ecosystem"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "pitch": "Phala Network tackles the issue of trust in the computation cloud. This blockchain is a trustless computation platform that enables massive cloud processing without sacrificing data confidentiality. Built around TEE-based privacy technology already embedded into modern processors, Phala Network's distributed computing cloud is versatile and confidential. By separating the consensus mechanism from computation, Phala ensures processing power is highly scalable. Together, this creates the infrastructure for a powerful, secure, and scalable trustless computing cloud. As a member parachain of the Polkadot cross-chain ecosystem, Phala will be able to provide computing power to other blockchain applications while protecting the data layer, enabling possibilities like privacy-protected DeFi trading positions and transaction history, co-computing DID confidential data, developing light-node cross-chain bridges, and more.",
+        "impression": "Seems kind of like SCRT in that it's used for private blockchain computing. Seems niche but useful. "
+    },
+    {
+        "name": "Counos X",
+        "ticker": "CCXX",
+        "market_cap": 1650114392.230268,
+        "tags": [
+            "mineable"
+        ],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": false,
+        "references": [
+            "https://cryptocoin.news/press-releases/heres-why-you-should-choose-counos-x-for-your-financial-transfers-46095/",
+            "https://www.counos.io/CounosX"
+        ],
+        "privacy_tech": "?",
+        "privacy_type": "?",
+        "pitch": "Launched on 1 June 2019 by a team based in Switzerland, Counos X was designed to facilitate payments and clearing purchase invoices, especially for easy exchange with fiat money. While its price is determined in the market, attempts will be made to prevent its value from fluctuating too much.",
+        "impression": "Might be a fine psuedo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement."
+    },
+    {
+        "name": "MimbleWimbleCoin",
+        "ticker": "MWC",
+        "market_cap": 200643623.5166278,
+        "tags": [],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "MimbleWimble",
+        "privacy_type": "Full",
+        "transactions": {
+            "fee": "?",
+            "speed": "1 min block time",
+            "per_second": "?"
+        },
+        "references": [
+            "https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9",
+            "https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/",
+            "https://www.mwc.mw/mimble-wimble-coin-articles/thoughts-on-the-mwc-initial-supply",
+            "https://www.mwc.mw/mimble-wimble-coin-articles/future-of-privacy-in-mwc"
+        ],
+        "pitch": "MWC is an in-progress implementation of the MimbleWimble protocol. Many characteristics are still undefined but the following constitutes the first set of choices: Clean and minimal implementation, and aiming to stay as such. Follows the Mimblewimble protocol, which provides hidden amounts and scaling advantages. Cuckoo Cycle proof of work in two variants named Cuckaroo (ASIC-resistant) and Cuckatoo (ASIC-targeted). Relatively fast block time: one minute. Fixed block reward over time with a decreasing dilution. Transaction fees are based on the number of Outputs created/destroyed and total transaction size. Smooth curve for difficulty adjustments.",
+        "impression": "The first MimbleWimble-based coin on the list is, well, MimbleWimbleCoin. It's probably my least favorite of the three, personally. Half of this coin was pre-mined and distributed to BTC holders that signed up for a few airdrops in 2019 and 2020. Now, note that this is one of the highest coins on the list that has a privacy-first implementation, while most have been optional. My hunch says this one will fade, but I'd be equally unsurprised if it doesn't"
+    },
+    {
+        "name": "Firo",
+        "ticker": "FIRO",
+        "market_cap": 91543579.17977192,
+        "tags": [
+            "mineable",
+            "pow",
+            "medium-of-exchange",
+            "privacy"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "Lelantus,Dandelion++",
+        "privacy_type": "Full",
+        "transactions": {
+            "fee": "none?",
+            "speed": "5 min block time",
+            "per_second": "?"
+        },
+        "references": [
+            "https://firo.org/guide/privacy-technology-comparison.html",
+            "https://firo.org/2021/01/28/chainlocks-activated-mainnet.html",
+            "https://www.coinbureau.com/review/zcoin-xzc/"
+        ],
+        "pitch": "Firo (formerly ZCoin) is a digital currency that enables untraceable private transactions, offering users freedom from large financial institutions. The team behind the project believes that privacy is a human right and that people need the option to regain control over their money. Firo uses zero-knowledge proofs in order to maintain anonymity. The technology allows users to prove to their counterparties that they own the Firo coins they are sending without actually revealing the source of the coins. When a coin is minted, it is destroyed soon after. When this occurs, the Zerocoin protocol generates a random serial number and a secret number. These are used in a cryptographic function to generate a value that a user becomes committed to. The value is then posted on the blockchain in order to prevent it from being changed again in the future.",
+        "impression": "Seems like the privacy-first tech is stronger than Monero. The \"burn and mint\" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes."
+    },
+    {
+        "name": "Beldex",
+        "ticker": "BDX",
+        "market_cap": 85979884.47826669,
+        "tags": [
+            "marketplace",
+            "centralized-exchange",
+            "discount-token",
+            "privacy"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "RingCT/CryptoNote",
+        "privacy_type": "Full",
+        "pitch": "The Beldex coin (BDX) is one of the very first privacy coins to act as an in-house token. The token is cryptographically designed in such a way, that is can be easily integrated into the Beldex extended ecosystem. It distinguishes itself from other coins by providing better privacy and security. The Beldex coin improves on the features of Monero while introducing its own advancements. Beldex has a default ring size of 10, as opposed to Monero, which strengthens transaction privacy. Thus, the coin offers default privacy. Ring sizes are not immutable and are flexible as users can increase the size as per their requirement. Beldex is the world's first islamic compliant exchange.",
+        "impression": "An \"in-house\" privacy token based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. It's basically a Monero implementation."
+    },
+    {
+        "name": "Bytecoin",
+        "ticker": "BCN",
+        "market_cap": 83390976.24655643,
+        "tags": [
+            "mineable",
+            "pow",
+            "cryptonight",
+            "medium-of-exchange",
+            "privacy",
+            "payments"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "references": [
+            "https://old.reddit.com/r/BytecoinBCN/comments/lek4b7/bytecoin_is_not_dead/",
+            "https://captainaltcoin.com/bytecoin-bcn-price-prediction",
+            "https://old.reddit.com/r/Monero/comments/26we1g/why_monero_and_not_bytecoin/"
+        ],
+        "privacy_tech": "CryptoNote",
+        "privacy_type": "Full",
+        "pitch": "Created in 2012, Bytecoin (BCN) describes itself as a private, decentralized cryptocurrency with an open source code. The main goal of the project is to facilitate fast, anonymous, and untraceable transactions. Bytecoin claims to be the first project to implement CryptoNote technology. Its security reportedly comes from using ring signatures to protect a sender's identity and unlinkable addresses to prevent blockchain analysis. Bytecoin claims to have a block time of 2 minutes and adaptive parameters that are designed to make it easy to mine. Recent additions to Bytecoin technology include Auditable Wallets, which reportedly enables secure, publicly observable deposits, and Blockchain Gateways, a means of connecting Bytecoin's blockchain with other blockchains.",
+        "impression": "This project looks kind of dead. Last github commit in 2019? That's a yikes. And look at that! 80%+ Premine? Another yikes. Monero looks like it was spun off the tech here and made into a real project. The fact this is so high on this list is, frankly amazing."
+    },
+    {
+        "name": "Beam",
+        "ticker": "BEAM",
+        "market_cap": 78475755.90999591,
+        "tags": [
+            "mineable",
+            "medium-of-exchange",
+            "defi",
+            "privacy",
+            "mimble-wimble",
+            "lelantusmw"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "Mimblewimble,Lelantus-MW",
+        "privacy_type": "Default",
+        "references": [
+            "https://beam.mw/faq/how-many-transactions-per-second-does-beam-support",
+            "https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9",
+            "https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/",
+            "https://medium.com/beam-mw/about-dandelion-and-mimblewimble-e083597e0355",
+            "https://www.coinbureau.com/review/beam-coin/",
+            "https://medium.com/beam-mw/beam-the-best-in-privacy-59023593c06", 
+            "https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2"
+        ],
+        "transactions": {
+            "per_second": "17 (for now, see https://beam.mw/faq/how-many-transactions-per-second-does-beam-support)",
+            "speed": "1 min block time",
+            "fee": "~0.000001 BEAM"
+        },
+        "impression": "This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability. The amount of extra features that have been developed and the roadmap look very good for the future. Capped coin supply. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well. There's a few things nit-picky issues that bother me with it currently, but most of which I think are being addressed or have bandaid solutions currently. The fact this is under BCN currently is a travesty."
+    },
+    {
+        "name": "AXEL",
+        "ticker": "AXEL",
+        "market_cap": 78502278.38190508,
+        "tags": [
+            "filesharing"
+        ],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": false,
+        "references": [
+            "https://www.axel.org/"
+        ],
+        "privacy_tech": "?",
+        "privacy_type": "?",
+        "transactions": {
+            "fee": "?",
+            "per_second": "?",
+            "speed": "?"
+        },
+        "pitch": "AXEL Go is not the typical file-sharing platform. It’s backed by two different decentralized technologies: the InterPlanetary File System (IPFS) and a proprietary blockchain. Working together, they complement each other perfectly to provide secure, private, and high-performance file sharing and storage.",
+        "impression": "Not quite sure why this was listed as a privacy coin, but ok. It seems like it's just a blockchain on top of a centralized file database?"
+    },
+    {
+        "name": "PIVX",
+        "ticker": "PIVX",
+        "market_cap": 73304279.38726325,
+        "tags": [
+            "pos",
+            "medium-of-exchange",
+            "store-of-value",
+            "privacy",
+            "zero-knowledge-proofs",
+            "masternodes",
+            "staking",
+            "dao"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "zk-SNARKs(transactions)",
+        "privacy_type": "Opt-In",
+        "transactions": {
+            "per_second": "<=173 TPS Unshielded, <=60 TPS Sheilded",
+            "speed": "1 min block time, confirmation might be quicker?",
+            "fee": "none?"
+        },
+        "pitch": "PIVX is a decentralized autonomous organization (DAO) that is self-funded and community-driven. It is a third-generation privacy coin and uses a modified version of Dash’s masternode architecture. It also uses Zcoin’s Zerocoin privacy protocol. Its transaction capacity can reach up to 1000 transactions per second through the usage of the SwiftxX payment protocol. PIVX also uses a proof-of-stake consensus mechanism that involves two parties: the masternodes and the validators. Masternodes are responsible for voting on development proposals that are put forward by the PIVX community and validating the transactions on the blockchain with a single confirmation. 10,000 PIVX is the minimum requirement to run a masternode. Each masternode gets 1 vote and is not involved in the mining of new tokens.",
+        "impression": "What is ZCash was proof of stake? That's PIVX in a nutshell. One of the highest PoS coins in this list. Stats are pretty great. Decentralized org. Cold Staking. Seems OK for an Opt-In Coin."
+    },
+    {
+        "name": "Pirate Chain",
+        "ticker": "ARRR",
+        "market_cap": 64354744.46446222,
+        "tags": [
+            "mineable",
+            "hybrid-dpow-pow",
+            "medium-of-exchange",
+            "privacy",
+            "zero-knowledge-proofs"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "zk-SNARKs,Tor",
+        "privacy_type": "Full",
+        "transactions": {
+            "fee": "0.0001 ARRR",
+            "per_second": "<=34",
+            "speed": "1 min block time"
+        },
+        "pitch": "Pirate Chain harnesses Delayed Proof of Work (dPoW) from Komodo, zero-knowledge proof (zk-SNARKs) transactions from ZCash, and the rule of enforced private-only transactions by Monero. Whereas many other “privacy” coins have optional privacy features, Pirate (ARRR) claims to be a 100% private send cryptocurrency, as well as the first 'z transaction-only' chain. ZK-Snarks technology (zero-knowledge cryptography) is utilized to shield peer to peer transactions. The team claims that this has created the largest shielded private pool of funds of any privacy coin.",
+        "impression": "What if ZCash only had z-addresses? That's Pirate Chain. If I had ZCash, it'd make me want to convert it to ARRR out of principle. I could see this one taking on Monero long term. The branding might be rough for any kind of mass public adoption, however."
+    },
+    {
+        "name": "Aeternity",
+        "ticker": "AE",
+        "market_cap": 61546752.42421963,
+        "tags": [
+            "mineable",
+            "medium-of-exchange",
+            "privacy"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "pitch": "Aeternity (AE) is a blockchain platform that focuses on high bandwidth transacting, purely-functional smart contracts, and decentralized oracles.",
+        "impression": "Looks like this is not a privacy coin. It just mentions that the data is encrypted when it's being used during computation and transfer?"
+    },
+    {
+        "name": "Oxen",
+        "ticker": "OXEN",
+        "market_cap": 58367017.90196224,
+        "tags": [
+            "pos",
+            "defi",
+            "privacy",
+            "masternodes"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "references": [
+            "https://docs.oxen.io/about-the-oxen-blockchain/overview"
+        ],
+        "transactions": {
+            "speed": "1 sec",
+            "fee": "?",
+            "per_second": ""
+        },
+        "privacy_type": "Full",
+        "privacy_tech": "RingCT,CryptoNote",
+        "pitch": "LOKI rebranded to Oxen. Oxen is a privacy-oriented cryptocurrency that joins a long list of other coins that are trying to improve on Bitcoin’s lack of privacy. Oxen is a developer platform for privacy tools. Through the usage of Oxen’s technology stack, developers are able to access proper privacy, security, safety and decentralization. As such, this privacy network allows users to build applications on the Oxen platform which include messaging services, and even online marketplaces or social media platforms that are privacy-oriented. By default, all of them will have a high level of data security and privacy that are fundamentally risked each time a user signs up for a traditional platform.",
+        "impression": "Based on Monero. Seems like the project is more of a set of developer building blocks for private blockchain-based applications. "
+    },
+    {
+        "name": "Groestlcoin",
+        "ticker": "GRS",
+        "market_cap": 55746123.13368743,
+        "tags": [
+            "mineable",
+            "pow",
+            "groestl",
+            "medium-of-exchange"
+        ],
+        "coinlore": true,
+        "coinmarketcap": false,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "references": [
+            "https://www.groestlcoin.org/what-is-groestlcoin-backed-by/"
+        ],
+        "pitch": "Groestlcoin is a proof of work cryptocurrency created in 2014. Designed for everyday use, Groestlcoin features an average block time of one minute, as opposed to Bitcoin's ten. As a consequence, it has a maximum total supply that will cap out at 105 million coins, as opposed to the 21 million for Bitcoin. The main idea of creating Groestlcoin was to establish an electronic payment model that was purely based on mathematical proof. It uses the proof of work system (POW) to facilitate secure online money transactions.",
+        "impression": "Doesn't look like a privacy coin. It looks like there's some nodes with TOR and that might be why it was marked."
+    },
+    {
+        "name": "VerusCoin",
+        "ticker": "VRSC",
+        "market_cap": 52956100.86208312,
+        "tags": [],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "zk-SNARKs",
+        "privacy_type": "Mixed?",
+        "pitch": "Verus Coin is a zero-knowledge technology, privacy-oriented project working to offer Public Blockchains as a Service (PBaaS). Verus Coin introduces a new consensus algorithm called Proof of Power, a 50% PoW / 50% PoS algorithm, which aims to solve weaknesses in other PoS systems. The Verus PoP algorithm is reportedly provably immune to 51% hash attacks, making Verus one of the most double-spend resistant public blockchain(s) running. Verus also uses VerusHash 2.0, a quantum-resistant hash algorithm that aims to bridge the performance gap between CPUs, GPUs, and FPGAs. The Verus Coin’s project vision is to enable automatic blockchain provisioning with PBaaS, provisioned by Verus miners, and stakers. Verus claims to be a 100% fairly launched community project, with no-ICO and premine.",
+        "impression": "I'm not going to pretend I'm smart enough to know weather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list." 
+    },
+    {
+        "name": "Apollo Currency",
+        "ticker": "APL",
+        "market_cap": 43977967.64667206,
+        "tags": [
+            "medium-of-exchange",
+            "payments"
+        ],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": false,
+        "references": [
+            "https://aplfintech.com/apollo-currency/"
+        ],
+        "transactions": {
+            "speed": "<2 seconds"
+        },
+        "privacy_tech": "?",
+        "privacy_type": "?",
+        "pitch": "Launched by a team of 20+ on 01/11/2017, Apollo views itself as a direct competitor of the top 20 cryptocurrencies on the market, reportedly combining the features of most of them into one decentralized platform. Apollo views itself as unique in that its transaction speed is 1-2 seconds. Apollo claims to not suffer from blockchain sustainability issues, such as blockchain bloat. Nearly every blockchain on the market grows in size as its transaction speeds get slower. Apollo reportedly gets faster the more users that are on the system and its database can reportedly grow to unlimited sizes due to technologies incorporated into it, such as sharding, adaptive forging, and node time synchronization. Apollo views itself as one of the first sustainable blockchains on Earth.",
+        "impression": "This project really feels like it's trying to bend the truth to make it look like a better project than what it is. I wish I could tell you what they use to send their \"private\" transactions, but I can't find any details. I'd personally avoid it."
+    },
+    {
+        "name": "Vertcoin",
+        "ticker": "VTC",
+        "market_cap": 38779812.039143555,
+        "tags": [
+            "mineable",
+            "pow",
+            "medium-of-exchange",
+            "privacy",
+            "payments"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": false,
+        "transactions": { },
+        "pitch": "Vertcoin (VTC) is an ASIC-resistant P2P Litecoin fork that uses PoW to reach consensus. Billed as the 'The People's Coin', the Vertcoin ascribes primacy to keeping its mining functions decentralized, and seeks to allow anyone with a personal computer to join the Vertcoin network. Towards this end, Vertcoin has its very own 1-click miner, a program meant to make mining more accessible to the general public. In Jul 2014, Vertcoin released a wallet supporting Stealth Address transactions.",
+        "impression": "Basically a Litecoin fork. The only mention of a privacy feature is specifically in the wallet with stealth addresses from Coin Market Cap. I don't see any details on the website. It looks like this has been 51% attacked frequently. The only thing remotely interesting is one-click mining, and that's a stretch. This project looks like some bags."
+    },
+    {
+        "name": "Grin",
+        "ticker": "GRIN",
+        "market_cap": 35934150.79138283,
+        "tags": [
+            "mineable",
+            "medium-of-exchange",
+            "privacy"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "MimbleWimble",
+        "privacy_type": "Default",
+        "transactions": { },
+        "references": [
+            "https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9",
+            "https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/",
+            "https://www.coinbureau.com/review/grin-coin/",
+            "https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2"
+        ],
+        "pitch": "Grin is a minimalistic, lightweight cryptocurrency, implementing the Mimblewimble protocol for a unique balance of privacy and scalability. The chain has no addresses, no amounts, and no need to store data of spent outputs. Grin is fully open-source and community-driven. There is no single entity behind it, Grin’s development is funded by donations as well as done voluntarily by contributors. Everybody can discuss, influence, or work on its development. Grin’s blocktime is 1 minute, each with a coinbase reward of 60 grins, thus creating 1 unit per second, forever. This linear emission creates a constant increase in supply, but a decreasing rate of inflation; making the emission disinflationary. This simple design serves to ensure both the long term security of the chain and a fair process of coin distribution to all participants.",
+        "impression": "Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin is infinately minable and has a linear inflation rate. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin ranks below VTC and BCN"
+    },
+    {
+        "name": "Super Zero Protocol",
+        "ticker": "SERO",
+        "market_cap": 35640780.978970736,
+        "tags": [],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "Super-ZK",
+        "privacy_type": "Full",
+        "transactions": { },
+        "pitch": "SERO describes itself as a privacy protection platform for Decentralized Applications. It aims to become a next-generation privacy blockchain that supports smart contract and enables the issuance of privacy coins and anonymous assets. SERO platform reportedly allows developers to issue privacy coins and use them in DApps. SERO claims to have built the world's fastest zero-knowledge proof encryption library \"Super-ZK\" which is reportedly 20+ times faster than the latest zk-SNARKs (Sapling upgrade) that Zcash uses. SERO also claims to be the first privacy coin protocol supporting smart contracts using zero-knowledge proofs.",
+        "impression": "Like ETH, if the tokens used a quicker zk-SNARKs (Super-ZK) implementation. I can't tell if the coin itself has its transactions protected by Super-ZK, and if it's Opt-In or not. It's also unclear if it requires a trusted setup, which to my knowledge, a zk-SNARK implementation does. Without knowing those details, this coin is a hard pass for me."
+    },
+    {
+        "name": "Navcoin",
+        "ticker": "NAV",
+        "market_cap": 33212801.670920897,
+        "tags": [
+            "pos",
+            "medium-of-exchange",
+            "privacy",
+            "payments",
+            "staking",
+            "dao"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": false,
+        "isPrivacyCoin": true,
+        "privacy_tech": "blsCT,Dandelion++",
+        "privacy_type": "Opt-In",
+        "transactions": {
+            "speed": "30 sec",
+            "fee": "0.0001 NAV",
+            "per_second": "1120"
+        },
+        "references": [
+            "https://www.coinbureau.com/review/navcoin-nav/",
+            "https://old.reddit.com/r/NavCoin/comments/7ktmoz/max_transactions_per_second/",
+            "https://medium.com/nav-coin/comparing-xnav-with-other-privacy-enhanced-coins-151b420629ac"
+        ],
+        "pitch": "Navcoin (NAV) is an open-sourced digital currency with privacy-enhanced features. Transactions that occur on the blockchain of Navcoin are made in a peer-to-peer fashion with no need for intermediaries. Following the release of Navcoin Core 6.0, it’s possible to store and transact coins both publicly (NAV) and privately (xNAV). When making a private transaction, it will not be possible to link the transaction to its sender or receiver, or even view the amount that was sent. This is made possible by Navcoin’s self-developed privacy protocol called Boneh-Lynn-Shacham Confidential Transactions (blsCT). Navcoin was invented in 2014 and had no pre-mine or ICO. With block times of 30 seconds, one can stake their coins to earn rewards through Proof of Stake Version 3 (PoSv3) for helping to secure the network. Navcoin’s current spendable supply is 69M NAV with a block reward of 2.5 NAV, hence a decreasing inflation model. From the 2.5 NAV, 2 NAV are redirected to the staker who found the block, and 0.5 NAV are accumulated in a decentralized treasury used to fund community initiatives based on the outcome of DAO votings. Navcoin’s decentralized autonomous organization (DAO) enables the community to be self-funded through its treasury, self-guided through consultations, and self-governed through consensus changes.",
+        "impression": "At first glance, seeing this coin was from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it."
+    },
+    {
+        "name": "CUTcoin",
+        "ticker": "CUT",
+        "market_cap": 24883812.077126436,
+        "tags": [],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true,
+        "isPrivacyCoin": true,
+        "privacy_tech": "RingCT,CryptoNote",
+        "privacy_type": "Full",
+        "pitch": "CUTcoin describes itself as the first CryptoNote-based pure PoS coin. The CUTcoin uses cryptography to enable anonymous transactions. Its Proof of Stake consensus conceals the total amount of coins in staking wallets. The project is the first to have developed privacy tokens (CNT) on it's chain. The tokens deployed on the Cutcoin chain has all privacy features as native CUT tokens and Monero, including RingCT. The CNT token deployment is made so user-friendly that even person without deep technical knowledge in coding or programming can deploy his / her token just by one single command. CUTcoin has its own dedicated staking pool which is managed by official project team. The Cutcoin staking pool provides an opportunity for all small stakers to earn more CUT (Daily) by staking on the official staking pool.",
+        "impression": "A relatively new PoS coin. It had a small premine, 2%. Staking and Transactions are private. Good roadmap. Looks good overall, but not amazing. Hope it gets some traction."
+    },
+    {
+        "name": "Dero",
+        "ticker": "DERO",
+        "market_cap": 22712438.73254622,
+        "tags": [
+            "mineable"
+        ],
+        "coinlore": true,
+        "coinmarketcap": false,
+        "cryptoslate": false,
+        "isPrivacyCoin": true,
+        "privacy_tech": "CryptoNote",
+        "privacy_type": "Full",
+        "transactions": {
+            "speed": "27 Second Blocktime, 4.5 Minute Confirmation Time",
+            "per_second": "1000",
+            "fee": "?"
+        },
+        "references": [
+            "https://forum.dero.io/t/lower-the-transaction-fee/174"
+        ],
+        "pitch": "Dero is the first crypto project to combine a Proof of Work blockchain with a DAG block structure and wholly anonymous transactions. The fully distributed ledger processes transactions with a twelve-second average block time and is secure against majority hashrate attacks. Dero will be the first CryptoNote blockchain to have smart contracts on its native chain without any extra layers or secondary blockchains.",
+        "impression": "Seems OK. 10% Premine. Nothing amazing jumping out at me, but nothing horribly offensive either. Big shrug here."
+    }
+]
