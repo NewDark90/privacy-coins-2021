@@ -106,6 +106,7 @@ References:
 ### **Lelantus**
 
 Previous / older implementations: Sigma, Zerocoin.
+
 Lelantus protocol uses a burn-and-redeem model to achieve the highest level of privacy. The users can redeem their coins using a special receipt which they receive when they burn their coins, new coins don't have a trace on the blockchain.
 
 *Pros*:
