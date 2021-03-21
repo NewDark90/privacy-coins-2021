@@ -23,7 +23,7 @@ let mergedCoins = allCoins
 }).filter(c => c.coinlore || c.coinmarketcap || c.cryptoslate);
    
 // STEP 3: Writing to a file 
-fs.writeFile("../data/privacy-coins_merged.json", JSON.stringify(mergedCoins, null, 4), err => { 
+fs.writeFile("./data/privacy-coins_merged.json", JSON.stringify(mergedCoins, null, 4), err => { 
      
     // Checking for errors 
     if (err) throw err;  

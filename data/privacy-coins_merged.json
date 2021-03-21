@@ -2,7 +2,7 @@
     {
         "name": "Monero",
         "ticker": "XMR",
-        "market_cap": 4138950012.4408693,
+        "market_cap": 4185948632.3481503,
         "tags": [
             "mineable",
             "pow",
@@ -16,7 +16,7 @@
     {
         "name": "Dash",
         "ticker": "DASH",
-        "market_cap": 2372103097.6528654,
+        "market_cap": 2253309149.5434265,
         "tags": [
             "mineable",
             "hybrid-pow-pos",
@@ -32,7 +32,7 @@
     {
         "name": "Decred",
         "ticker": "DCR",
-        "market_cap": 2239982471.362073,
+        "market_cap": 2106612875.316087,
         "tags": [
             "mineable",
             "hybrid-pow-pos",
@@ -49,7 +49,7 @@
     {
         "name": "Zcash",
         "ticker": "ZEC",
-        "market_cap": 1724640307.3210351,
+        "market_cap": 1693747876.9097395,
         "tags": [
             "mineable",
             "pow",
@@ -65,7 +65,7 @@
     {
         "name": "DigiByte",
         "ticker": "DGB",
-        "market_cap": 872176085.1752247,
+        "market_cap": 1016676636.5767045,
         "tags": [
             "mineable",
             "pow",
@@ -81,12 +81,13 @@
     {
         "name": "Horizen",
         "ticker": "ZEN",
-        "market_cap": 562869125.9559923,
+        "market_cap": 636867624.3233836,
         "tags": [
             "mineable",
             "medium-of-exchange",
             "content-creation",
-            "privacy"
+            "privacy",
+            "masternodes"
         ],
         "coinlore": true,
         "coinmarketcap": true,
@@ -95,7 +96,7 @@
     {
         "name": "Verge",
         "ticker": "XVG",
-        "market_cap": 422026832.12505347,
+        "market_cap": 570411580.2466581,
         "tags": [
             "mineable",
             "multiple-algorithms",
@@ -109,34 +110,11 @@
     {
         "name": "Secret",
         "ticker": "SCRT",
-        "market_cap": 207092091.46841127,
+        "market_cap": 208153857.74126995,
         "tags": [
-            "defi"
-        ],
-        "coinlore": false,
-        "coinmarketcap": false,
-        "cryptoslate": true
-    },
-    {
-        "name": "Haven Protocol",
-        "ticker": "XHV",
-        "market_cap": 192503322.6676546,
-        "tags": [
-            "defi"
-        ],
-        "coinlore": true,
-        "coinmarketcap": false,
-        "cryptoslate": false
-    },
-    {
-        "name": "Phala Network",
-        "ticker": "PHA",
-        "market_cap": 162957877.72101587,
-        "tags": [
-            "ai-big-data",
-            "privacy",
-            "substrate",
-            "dot-ecosystem"
+            "cosmos-ecosystem",
+            "defi",
+            "privacy"
         ],
         "coinlore": false,
         "coinmarketcap": true,
@@ -145,7 +123,7 @@
     {
         "name": "Counos X",
         "ticker": "CCXX",
-        "market_cap": 1650114392.230268,
+        "market_cap": 1651883550.0527523,
         "tags": [
             "mineable"
         ],
@@ -154,53 +132,34 @@
         "cryptoslate": true
     },
     {
+        "name": "Haven Protocol",
+        "ticker": "XHV",
+        "market_cap": 163410823.23377028,
+        "tags": [
+            "defi"
+        ],
+        "coinlore": true,
+        "coinmarketcap": false,
+        "cryptoslate": false
+    },
+    {
         "name": "MimbleWimbleCoin",
         "ticker": "MWC",
-        "market_cap": 200643623.5166278,
+        "market_cap": 161413159.40507492,
         "tags": [],
         "coinlore": false,
         "coinmarketcap": false,
         "cryptoslate": true
     },
     {
-        "name": "Firo",
-        "ticker": "FIRO",
-        "market_cap": 91543579.17977192,
+        "name": "Phala Network",
+        "ticker": "PHA",
+        "market_cap": 154160194.99152058,
         "tags": [
-            "mineable",
-            "pow",
-            "medium-of-exchange",
-            "privacy"
-        ],
-        "coinlore": false,
-        "coinmarketcap": true,
-        "cryptoslate": true
-    },
-    {
-        "name": "Beldex",
-        "ticker": "BDX",
-        "market_cap": 85979884.47826669,
-        "tags": [
-            "marketplace",
-            "centralized-exchange",
-            "discount-token",
-            "privacy"
-        ],
-        "coinlore": true,
-        "coinmarketcap": true,
-        "cryptoslate": true
-    },
-    {
-        "name": "Bytecoin",
-        "ticker": "BCN",
-        "market_cap": 83390976.24655643,
-        "tags": [
-            "mineable",
-            "pow",
-            "cryptonight",
-            "medium-of-exchange",
+            "ai-big-data",
             "privacy",
-            "payments"
+            "substrate",
+            "polkadot-ecosystem"
         ],
         "coinlore": false,
         "coinmarketcap": true,
@@ -209,7 +168,7 @@
     {
         "name": "Beam",
         "ticker": "BEAM",
-        "market_cap": 78475755.90999591,
+        "market_cap": 106178658.26853895,
         "tags": [
             "mineable",
             "medium-of-exchange",
@@ -223,20 +182,54 @@
         "cryptoslate": true
     },
     {
-        "name": "AXEL",
-        "ticker": "AXEL",
-        "market_cap": 78502278.38190508,
+        "name": "Firo",
+        "ticker": "FIRO",
+        "market_cap": 90378821.19824994,
         "tags": [
-            "filesharing"
+            "mineable",
+            "pow",
+            "medium-of-exchange",
+            "privacy",
+            "masternodes"
         ],
         "coinlore": false,
-        "coinmarketcap": false,
+        "coinmarketcap": true,
+        "cryptoslate": true
+    },
+    {
+        "name": "Oxen",
+        "ticker": "OXEN",
+        "market_cap": 88330253.9919567,
+        "tags": [
+            "pos",
+            "defi",
+            "privacy",
+            "masternodes"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": true
+    },
+    {
+        "name": "Bytecoin",
+        "ticker": "BCN",
+        "market_cap": 87202483.58282243,
+        "tags": [
+            "mineable",
+            "pow",
+            "cryptonight",
+            "medium-of-exchange",
+            "privacy",
+            "payments"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
         "cryptoslate": true
     },
     {
         "name": "PIVX",
         "ticker": "PIVX",
-        "market_cap": 73304279.38726325,
+        "market_cap": 77887545.09892213,
         "tags": [
             "pos",
             "medium-of-exchange",
@@ -252,9 +245,47 @@
         "cryptoslate": true
     },
     {
+        "name": "AXEL",
+        "ticker": "AXEL",
+        "market_cap": 77285117.38294722,
+        "tags": [
+            "filesharing"
+        ],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true
+    },
+    {
+        "name": "Beldex",
+        "ticker": "BDX",
+        "market_cap": 74276231.7804216,
+        "tags": [
+            "marketplace",
+            "centralized-exchange",
+            "discount-token",
+            "privacy"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": true
+    },
+    {
+        "name": "Aeternity",
+        "ticker": "AE",
+        "market_cap": 65174281.92978091,
+        "tags": [
+            "mineable",
+            "medium-of-exchange",
+            "privacy"
+        ],
+        "coinlore": false,
+        "coinmarketcap": true,
+        "cryptoslate": false
+    },
+    {
         "name": "Pirate Chain",
         "ticker": "ARRR",
-        "market_cap": 64354744.46446222,
+        "market_cap": 60953300.47953922,
         "tags": [
             "mineable",
             "hybrid-dpow-pow",
@@ -267,36 +298,9 @@
         "cryptoslate": true
     },
     {
-        "name": "Aeternity",
-        "ticker": "AE",
-        "market_cap": 61546752.42421963,
-        "tags": [
-            "mineable",
-            "medium-of-exchange",
-            "privacy"
-        ],
-        "coinlore": false,
-        "coinmarketcap": true,
-        "cryptoslate": false
-    },
-    {
-        "name": "Oxen",
-        "ticker": "OXEN",
-        "market_cap": 58367017.90196224,
-        "tags": [
-            "pos",
-            "defi",
-            "privacy",
-            "masternodes"
-        ],
-        "coinlore": false,
-        "coinmarketcap": true,
-        "cryptoslate": true
-    },
-    {
         "name": "Groestlcoin",
         "ticker": "GRS",
-        "market_cap": 55746123.13368743,
+        "market_cap": 59032914.840810925,
         "tags": [
             "mineable",
             "pow",
@@ -308,9 +312,25 @@
         "cryptoslate": false
     },
     {
+        "name": "Navcoin",
+        "ticker": "NAV",
+        "market_cap": 49317382.75250693,
+        "tags": [
+            "pos",
+            "medium-of-exchange",
+            "privacy",
+            "payments",
+            "staking",
+            "dao"
+        ],
+        "coinlore": true,
+        "coinmarketcap": true,
+        "cryptoslate": false
+    },
+    {
         "name": "VerusCoin",
         "ticker": "VRSC",
-        "market_cap": 52956100.86208312,
+        "market_cap": 44667583.71882926,
         "tags": [],
         "coinlore": false,
         "coinmarketcap": false,
@@ -319,7 +339,7 @@
     {
         "name": "Apollo Currency",
         "ticker": "APL",
-        "market_cap": 43977967.64667206,
+        "market_cap": 42649087.13035196,
         "tags": [
             "medium-of-exchange",
             "payments"
@@ -329,9 +349,18 @@
         "cryptoslate": true
     },
     {
+        "name": "Super Zero Protocol",
+        "ticker": "SERO",
+        "market_cap": 38454690.19538613,
+        "tags": [],
+        "coinlore": false,
+        "coinmarketcap": false,
+        "cryptoslate": true
+    },
+    {
         "name": "Vertcoin",
         "ticker": "VTC",
-        "market_cap": 38779812.039143555,
+        "market_cap": 38202712.053937584,
         "tags": [
             "mineable",
             "pow",
@@ -346,7 +375,7 @@
     {
         "name": "Grin",
         "ticker": "GRIN",
-        "market_cap": 35934150.79138283,
+        "market_cap": 37650421.77215546,
         "tags": [
             "mineable",
             "medium-of-exchange",
@@ -357,34 +386,9 @@
         "cryptoslate": true
     },
     {
-        "name": "Super Zero Protocol",
-        "ticker": "SERO",
-        "market_cap": 35640780.978970736,
-        "tags": [],
-        "coinlore": false,
-        "coinmarketcap": false,
-        "cryptoslate": true
-    },
-    {
-        "name": "Navcoin",
-        "ticker": "NAV",
-        "market_cap": 33212801.670920897,
-        "tags": [
-            "pos",
-            "medium-of-exchange",
-            "privacy",
-            "payments",
-            "staking",
-            "dao"
-        ],
-        "coinlore": true,
-        "coinmarketcap": true,
-        "cryptoslate": false
-    },
-    {
         "name": "CUTcoin",
         "ticker": "CUT",
-        "market_cap": 24883812.077126436,
+        "market_cap": 28188798.5586116,
         "tags": [],
         "coinlore": false,
         "coinmarketcap": false,
@@ -393,7 +397,7 @@
     {
         "name": "Dero",
         "ticker": "DERO",
-        "market_cap": 22712438.73254622,
+        "market_cap": 25792492.36443665,
         "tags": [
             "mineable"
         ],
