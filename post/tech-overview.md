@@ -1,6 +1,6 @@
 ## Privacy Tech Overview
 
-Before going into individual coins and implementations, I'm going to briefly go over the technology that powers most of them. If there's a unique tech for a coin, it probably won't be here and instead touched on in the coin itself I'm basing my Pros and Cons on the [firo tech comparison guide](https://firo.org/guide/privacy-technology-comparison.html). It's not perfect and the source is technically biased, but it's one of the better comprehensive guides and a good starting point.
+Before going into individual coins and implementations, I'm going to briefly go over the technology that powers most of them. If there's a unique tech for a coin, it probably won't be here and instead touched on in the coin information itself. I'm basing my Pros and Cons on the [firo tech comparison guide](https://firo.org/guide/privacy-technology-comparison.html). It's not perfect and the source is technically biased, but it's one of the better comprehensive guides and a good starting point.
 
 ### **Coin-Joins/Mixers/Tumblers**
 
@@ -32,7 +32,7 @@ Together, the amount of anonymity is very solid. Its not perfect given it partly
 
 *Pros*:
 
-- Can be implemented with privacy on by default
+- Can be implemented with "privacy on" by default
 - Anonymity increases as time passes as outputs become the new inputs of new mixes
 - Hides transaction amounts when implemented with RingCT (or bulletproofs)
 - Well researched cryptography
@@ -59,7 +59,7 @@ Primarily, the method used for blockchains are zk-SNARKs. *Zero-Knowledge Succin
 
 *Pros*:
 
-- Can be implemented with privacy on by default
+- Can be implemented with "privacy on" by default
 - Hides all details of transaction, including amount
 - Proof sizes are small and fast to verify
 - Cryptographically Secure
@@ -114,7 +114,7 @@ Lelantus protocol uses a burn-and-redeem model to achieve the highest level of p
 - Uses well-researched cryptography and only requiring DDH cryptographic assumptions
 - Small proof sizes of around 1.5 kB
 - No trusted setup
-- Scalable enough to allow privacy on by default
+- Scalable enough to allow "privacy on" by default
 
 *Cons*:
 
