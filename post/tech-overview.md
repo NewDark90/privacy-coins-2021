@@ -107,7 +107,7 @@ References:
 
 Previous / older implementations: Sigma, Zerocoin.
 
-Lelantus protocol uses a burn-and-redeem model to achieve the highest level of privacy. The users can redeem their coins using a special receipt which they receive when they burn their coins, new coins don't have a trace on the blockchain.
+Lelantus protocol uses a burn-and-redeem model to achieve a high level of privacy. The users can redeem their coins using a special receipt which they receive when they burn their coins, new coins don't have a trace on the blockchain.
 
 *Pros*:
 
@@ -137,7 +137,7 @@ Not all protections are implemented directly on the blockchain. There are some n
 You probably know Tor, right? It hides your IP while browsing the internet. You send a request to the Tor network. That request gets bounced around several random network nodes before finally exiting.
 
 References: 
-- [https://www.csoonline.com/article/3287653/what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html](https://www.csoonline.com/article/3287653 what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html)
+- [https://www.csoonline.com/article/3287653/what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html](https://www.csoonline.com/article/3287653/what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html)
 
 ### **Dandelion++**
 
