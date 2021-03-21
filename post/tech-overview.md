@@ -91,11 +91,11 @@ A newer technology that hides all transactions and amounts. Uses a "blinding fac
 
 *Cons*: 
 
-- Needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction.
+- Needs interaction between receiver and sender. Cannot post address and receive. Multi-party transactions are problematic as all parties need to communicate to create a transaction.
 - Does not break transaction links, merely obscures them, hence a 'decoy' model.
     - Transaction links are to secret addresses, not a wallet.
 - Cold storage in hardware wallets are tricky to implement
-- Smart contracts are harder to implement on Mimblewimble
+- Smart contracts are harder to implement on MimbleWimble
 - Relatively early in development and doesn't share Bitcoin core code making building and integrating it into the infrastructure would need independent development.
 
 References: 
