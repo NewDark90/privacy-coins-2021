@@ -94,9 +94,10 @@ A newer technology that hides all transactions and amounts. Uses a "blinding fac
 - Needs interaction between receiver and sender. Cannot post address and receive. Multi-party transactions are problematic as all parties need to communicate to create a transaction.
 - Does not break transaction links, merely obscures them, hence a 'decoy' model.
     - Transaction links are to secret addresses, not a wallet.
-- Cold storage in hardware wallets are tricky to implement
-- Smart contracts are harder to implement on MimbleWimble
-- Relatively early in development and doesn't share Bitcoin core code making building and integrating it into the infrastructure would need independent development.
+- Cold storage in hardware wallets are tricky to implement.
+- Smart contracts are harder to implement on MimbleWimble.
+- Relatively early in development.
+- Doesn't share Bitcoin core code, making third-party integration more challenging.
 
 References: 
 - [https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/](https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/)
@@ -119,8 +120,8 @@ Lelantus protocol uses a burn-and-redeem model to achieve a high level of privac
 
 *Cons*:
 
-- Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough
-- Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent
+- Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough.
+- Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent.
 - Still in early development, potential bugs and exploits could arise.
 
 References: 
