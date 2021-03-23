@@ -883,7 +883,7 @@ So, out of the top ~200 coins, or ~750 coins & tokens:
 
 - Only 31 came up as even being labeled a privacy coin
 - Only ~21 seem to actually be privacy coins 
-- Only 13 *are not* opt-in.
+- Only 13 *are not* opt-in
 
 And a handy tl;dr of my opinion on each ticker:
 
