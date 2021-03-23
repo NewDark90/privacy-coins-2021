@@ -8,7 +8,7 @@ In the past few months I've been very involved in understanding and researching 
 Please note, some of these details will be basic, especially if you frequent /r/cryptocurrency. I want this to still be generally approachable for people relatively fresh to blockchain and crypto concepts. Some things might get over simplified, but I'll try not to throw out any important details or nuance. As always, do your own research. I'm not an expert. Please correct me with references where I'm wrong. Not financial advice.
 
 ## *What is private crypto, and wait, isn't it already private?* 
-Well, not quite. It would be safe to say that most crypto-currencies, including bitcoin, are pseudo-anonymous. Blockchains are a distributed ledger of transactions. And because these transactions are public knowledge, you can see that wallet ABC gave 0.5 bitcoin to XYZ at a certain timeframe. You don't know that John Smith owns the ABC wallet. However, if anyone were to find out that John Smith owns ABC wallet, that makes every single transaction John Smith has ever made or received out of that wallet, traceable to him. This works similiarly to how if someone finds your reddit username, they can now search for every comment and post you've ever made.
+Well, not quite. It would be safe to say that most crypto-currencies, including bitcoin, are pseudo-anonymous. Blockchains are a distributed ledger of transactions. And because these transactions are public knowledge, you can see that wallet ABC gave 0.5 bitcoin to XYZ at a certain timeframe. You don't know that John Smith owns the ABC wallet. However, if anyone were to find out that John Smith owns ABC wallet, that makes every single transaction John Smith has ever made or received out of that wallet, traceable to him. This works similarly to how if someone finds your reddit username, they can now search for every comment and post you've ever made.
 
 That seems like a fundamental flaw. I don't want governments, companies, or even family combing through my entire reddit history... much MUCH less my entire financial transaction history. 
 
@@ -32,7 +32,7 @@ Cons:
 
 - Basic anonymity
 - Requires mixers to be online
-- Acquiring coins from a mixer may give you coins that are being tracked and/or tied to illegal activity.
+- Acquiring coins from a mixer may give you coins that are being tracked and/or tied to illegal activity
 
 References: 
 - [https://academy.bit2me.com/en/what-is-coinjoin/](https://academy.bit2me.com/en/what-is-coinjoin/)
@@ -44,7 +44,7 @@ I'm putting these together as they almost always are used in a pair, most notabl
 RingCT works by sending multiple "decoy" transactions among the actual transaction. The amount is not known to anyone other than sender and receiver.
 CryptoNote handles generating one-time use addresses to use for a transaction.
 
-Together, the amount of anonymity is very solid. Its not perfect given it partly uses "security through obscurity" with multiple decoys. 
+Together, the amount of anonymity is very solid. It's not perfect given it partly uses "security through obscurity" with multiple decoys. 
 
 Pros:
 
@@ -55,11 +55,11 @@ Pros:
 
 Cons:
 
-- Does not break transaction links, merely obscures them, hence a 'decoy' model.
+- Does not break transaction links, merely obscures them, hence a 'decoy' model
 - Scalability issues because of large transaction sizes and a non prunable blockchain
 - Risks of blockchain being deanonymized in the future or through incorrect implementations
 - Ring size is practically limited
-- Does not have supply auditability meaning hidden inflation can go undetected.
+- Does not have supply auditability meaning hidden inflation can go undetected
 
 References: 
 - [https://www.getmonero.org/resources/moneropedia/ringCT.html](https://www.getmonero.org/resources/moneropedia/ringCT.html)
@@ -83,9 +83,9 @@ Pros:
 Cons: 
 
 - Requires a trusted setup.
-    - This risk can be managed through Multi-party Computation Ceremonies.
-- Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins.
-- Does not have supply auditability meaning hidden inflation can go undetected.
+    - This risk can be managed through Multi-party Computation Ceremonies
+- Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins
+- Does not have supply auditability meaning hidden inflation can go undetected
 
 References:
 - [https://z.cash/technology/zksnarks/](https://z.cash/technology/zksnarks/)
@@ -107,13 +107,13 @@ Pros:
 
 Cons: 
 
-- Needs interaction between receiver and sender. Cannot post address and receive. Multi-party transactions are problematic as all parties need to communicate to create a transaction.
-- Does not break transaction links, merely obscures them, hence a 'decoy' model.
-    - Transaction links are to secret addresses, not a wallet.
-- Cold storage in hardware wallets are tricky to implement.
-- Smart contracts are harder to implement on MimbleWimble.
-- Relatively early in development.
-- Doesn't share Bitcoin core code, making third-party integration more challenging.
+- Needs interaction between receiver and sender. Cannot post address and receive. Multi-party transactions are problematic as all parties need to communicate to create a transaction
+- Does not break transaction links, merely obscures them, hence a 'decoy' model
+    - Transaction links are to secret addresses, not a wallet
+- Cold storage in hardware wallets are tricky to implement
+- Smart contracts are harder to implement on MimbleWimble
+- Relatively early in development
+- Doesn't share Bitcoin core code, making third-party integration more challenging
 
 References: 
 - [https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/](https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/)
@@ -128,7 +128,7 @@ Lelantus protocol uses a burn-and-redeem model to achieve a high level of privac
 
 Pros:
 
-- Very high anonymity with anonymity sets of up to around 100,000. Mint and spend transactions and completely breaks transaction links between addresses.
+- Very high anonymity with anonymity sets of up to around 100,000. Mint and spend transactions and completely breaks transaction links between addresses
 - Uses well-researched cryptography and only requiring DDH cryptographic assumptions
 - Small proof sizes of around 1.5 kB
 - No trusted setup
@@ -136,9 +136,9 @@ Pros:
 
 Cons:
 
-- Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough.
-- Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent.
-- Still in early development, potential bugs and exploits could arise.
+- Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough
+- Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent
+- Still in early development, potential bugs and exploits could arise
 
 References: 
 - [https://medium.com/@zcoin/lelantus-zcoins-next-gen-privacy-protocol-f17ac53be277](https://medium.com/@zcoin/lelantus-zcoins-next-gen-privacy-protocol-f17ac53be277)
