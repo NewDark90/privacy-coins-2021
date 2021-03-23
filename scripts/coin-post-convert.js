@@ -51,7 +51,8 @@ ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
 
         markdowns.push(markdown);
 
-        const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
+        //const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
+        const fileName = `${coin.ticker}.md`;
 
         fs.writeFile(`./post/privacy-coins/${fileName}`, markdown, err => { 
             
@@ -82,7 +83,8 @@ ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
 
         markdowns.push(markdown);
 
-        const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
+        //const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
+        const fileName = `${coin.ticker}.md`;
 
         fs.writeFile(`./post/fake-coins/${fileName}`, markdown, err => { 
             
