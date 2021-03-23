@@ -223,7 +223,7 @@
         },
         "pitch": "DigiByte is a modification of Bitcoin which aims to diversify security, speed and capacity possibilities. Its first incarnation was as an open source blockchain and associated cryptocurrency, DGB. The network has five separate algorithms which help to maintain security and help prevent ASIC miners from commandeering too much power. Later, another offering, DigiAssets, appeared, with DGB as its native token. DigiAssets appeals to those developers looking to launch digital assets, decentralized applications (DApps) and encode the necessary corresponding smart contracts. All governance structures for DigiByte are run on a voluntary basis, in line with the thesis that the network should be open source and publicly accessible. Transaction fees in DGB are paid to miners for validating the blockchain.",
         "impression": {
-            "long": "Can't find much in the way of good info on this project. Doesn't seem like a privacy coin, but does use Dandelion++",
+            "long": "Can't find much in the way of good info on the privacy features in this project. Doesn't seem like a privacy coin, but does use Dandelion++",
             "short": ""
         },
         "pros": [],

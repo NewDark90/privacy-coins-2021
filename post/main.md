@@ -173,7 +173,7 @@ Before going into the details of every coin in this list. I want to make a few t
 
 *First*, I'm only going to be looking at coins, not tokens.
 
-*Second*, there are varying degrees of how private a coin is. Some may draw the line on what "is" and "is not" a privacy coin based on different criteria. The bar that I will use for this list is going to be fairly simple and as reasonably inclusive as I can be. To be a privacy coin here, you need to at least do better than what you can do with Bitcoin. With Bitcoin, you can optionally perform a coinjoin for transactions. If your coin has Opt-In security features, it has to be better than a coinjoin. If the security feature IS a coinjoin, it must at least be the default. Simple enough? 
+*Second*, there are varying degrees of how private a coin is. Some may draw the line on what "is" and "is not" a privacy coin based on different criteria. The bar that I will use for this list is going to be fairly simple and as reasonably inclusive as I can be. To be a privacy coin here, you need to at least do better than what you can do with Bitcoin. With Bitcoin, you can optionally perform a coinjoin for transactions. If your coin has Opt-In security features, it has to be better than a coinjoin. If the security feature IS a coinjoin, it must at least be the default. Having some network security bells and whistles to keep your IP private is nice, but also not enough to make the cut.
 
 *Third*, I haven't checked every coin in existence. I've found 3 lists of coins I'm working off of here, with a 4th I found later as another sanity check. [Coin Market Cap Api \(filtering by tags\)](https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=5000&cryptocurrency_type=coins), [Cryptoslate](https://cryptoslate.com/cryptos/privacy/), [Coinlore](https://www.coinlore.com/privacy-coins), [CoinGecko](https://www.coingecko.com/en/categories/privacy-coins)
 
@@ -791,7 +791,7 @@ This coin's public ledger has amounts, senders, and recipients. Staking uses a m
 
 **Why this coin isn't with the other privacy coins?**: 
 
-Can't find much in the way of good info on this project. Doesn't seem like a privacy coin, but does use Dandelion++
+Can't find much in the way of good info on the privacy features in this project. Doesn't seem like a privacy coin, but does use Dandelion++
 
 
 
