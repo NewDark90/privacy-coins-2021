@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. The chain has also been 51% attacked quite a few times, and recently had it's block history re-written for a short time before a fix. That said, this coin has some pretty good transaction stats and quite a few good features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. It's and interesting project that's had a shaky and strange history.
+Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. The chain has also been 51% attacked quite a few times, and recently had its block history re-written for a short time before a fix. That said, this coin has some pretty good transaction stats and quite a few good features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. It's an interesting project that's had a shaky and strange history.
 
 *How do I feel about this project?* Wary 😟
 

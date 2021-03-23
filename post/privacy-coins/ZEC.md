@@ -9,11 +9,11 @@
 
 **Coin Rundown / Pitch**: 
 
-> 
+> Zcash’s main advantage lies in its optional anonymity, which allows for a level of privacy unattainable with regular, pseudonymous cryptocurrencies like Bitcoin or Ethereum. ZEC transactions can be sent in two ways: transparent and shielded. Transparent transactions work in about the same way as in Bitcoin, whose codebase Zcash was originally based on: they are sent between public addresses and are recorded on an immutable public ledger (the blockchain). All essential information about these transactions is available online for anyone to see, including the sending and receiving addresses and the amount sent. These public transactions do not reveal user identities in an overt manner: the only identifiers an outside observer can access from the blockchain are public addresses. Shielded ZEC transactions leverage the technology of zero-knowledge succinct non-interactive arguments of knowledge, or zk-SNARKs, in order to enable completely anonymous transactions to be sent over a public immutable blockchain.
 
 **My Impression**: 
 
-Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private), so if the rest of the transactions are public in some capacity. Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin. Hard to say if it's undervalued given how small the sector is overall or overvalued given how good some of the other coins are.
+Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private). Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin. Hard to say if it's undervalued given how small the sector is overall or overvalued given how good some of the other coins are.
 
 *How do I feel about this project?* Neutral 😐
 

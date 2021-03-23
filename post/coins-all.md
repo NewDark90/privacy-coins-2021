@@ -43,11 +43,11 @@ The Bitcoin of privacy coins. The market leader that's more of a store of value 
 
 **Coin Rundown / Pitch**: 
 
-> 
+> Zcash’s main advantage lies in its optional anonymity, which allows for a level of privacy unattainable with regular, pseudonymous cryptocurrencies like Bitcoin or Ethereum. ZEC transactions can be sent in two ways: transparent and shielded. Transparent transactions work in about the same way as in Bitcoin, whose codebase Zcash was originally based on: they are sent between public addresses and are recorded on an immutable public ledger (the blockchain). All essential information about these transactions is available online for anyone to see, including the sending and receiving addresses and the amount sent. These public transactions do not reveal user identities in an overt manner: the only identifiers an outside observer can access from the blockchain are public addresses. Shielded ZEC transactions leverage the technology of zero-knowledge succinct non-interactive arguments of knowledge, or zk-SNARKs, in order to enable completely anonymous transactions to be sent over a public immutable blockchain.
 
 **My Impression**: 
 
-Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private), so if the rest of the transactions are public in some capacity. Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin. Hard to say if it's undervalued given how small the sector is overall or overvalued given how good some of the other coins are.
+Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private). Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin. Hard to say if it's undervalued given how small the sector is overall or overvalued given how good some of the other coins are.
 
 *How do I feel about this project?* Neutral 😐
 
@@ -99,7 +99,7 @@ Opt-In zk-SNARKs implementation... wait, is this ZCash? No? Ok. Blockchains on b
 
 **My Impression**: 
 
-Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. The chain has also been 51% attacked quite a few times, and recently had it's block history re-written for a short time before a fix. That said, this coin has some pretty good transaction stats and quite a few good features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. It's and interesting project that's had a shaky and strange history.
+Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. The chain has also been 51% attacked quite a few times, and recently had its block history re-written for a short time before a fix. That said, this coin has some pretty good transaction stats and quite a few good features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. It's an interesting project that's had a shaky and strange history.
 
 *How do I feel about this project?* Wary 😟
 
@@ -310,7 +310,7 @@ This project looks kind of dead. Last github commit in 2019? That's a yikes. And
 
 **My Impression**: 
 
-This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well. There's a few things nit-picky issues that bother me with it currently, but most of which I think are being addressed or have bandaid solutions currently.
+This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well. There's a few things nit-picky issues that bother me with it currently, but most of which I think are being addressed or have band-aid solutions currently.
 
 *How do I feel about this project?* Great 😄
 
@@ -416,7 +416,7 @@ Based on Monero. Seems like the project is more of a set of developer building b
 
 **My Impression**: 
 
-I'm not going to pretend I'm smart enough to know weather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list.
+I'm not going to pretend I'm smart enough to know wheather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list.
 
 *How do I feel about this project?* Neutral 😐
 
@@ -441,7 +441,7 @@ I'm not going to pretend I'm smart enough to know weather or not this concept ov
 
 **My Impression**: 
 
-Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
+Grin is my second favorite coin of the three MimbleWimble variants. Its team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
 
 *How do I feel about this project?* Good 🙂
 

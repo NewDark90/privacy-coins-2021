@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-I'm not going to pretend I'm smart enough to know weather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list.
+I'm not going to pretend I'm smart enough to know wheather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list.
 
 *How do I feel about this project?* Neutral 😐
 
