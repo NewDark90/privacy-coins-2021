@@ -126,7 +126,7 @@ Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARK
 
 **My Impression**: 
 
-Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has it's own blockchain now. Seems like a niche use case, but also a necessary one.
+Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has its own blockchain now. Seems like a niche use case, but also a necessary one.
 
 *How do I feel about this project?* Neutral 😐
 
@@ -152,7 +152,7 @@ Seems like less of a currency, and more of a 'computational gas' for secret smar
 
 **My Impression**: 
 
-Uses XMR tech. Has high fees and long transaction times. I love the inherit contrictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
+Uses XMR tech. Has high fees and long transaction times. I love the inherent contradictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
 
 *How do I feel about this project?* Wary 😟
 
@@ -231,7 +231,7 @@ The first MimbleWimble-based coin on the list is, well, MimbleWimbleCoin. It's m
 
 **My Impression**: 
 
-Seems like the privacy-first tech is stronger than Monero. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
+Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
 
 *How do I feel about this project?* Good 🙂
 
@@ -258,7 +258,7 @@ Seems like the privacy-first tech is stronger than Monero. The "burn and mint" s
 
 **My Impression**: 
 
-An "in-house" privacy token based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.
+An "in-house" privacy coin based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.
 
 *How do I feel about this project?* Wary 😕
 
@@ -333,7 +333,7 @@ This is my favorite of the three MW coins, and one of the main reasons I wanted 
 
 **Privacy**: Opt-In - zk-SNARKs(transactions) 
 
-**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Sheilded transactions per second **/** none? fee
+**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Shielded transactions per second **/** none? fee
 
 **Coin Rundown / Pitch**: 
 
@@ -441,7 +441,7 @@ I'm not going to pretend I'm smart enough to know weather or not this concept ov
 
 **My Impression**: 
 
-Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin is infinately minable and has a linear inflation rate. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin ranks below VTC and BCN
+Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
 
 *How do I feel about this project?* Good 🙂
 
@@ -494,7 +494,7 @@ Like ETH, if the tokens used a quicker zk-SNARKs (Super-ZK) implementation. I ca
 
 **My Impression**: 
 
-At first glance, seeing this coin was from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it.
+At first glance, seeing this coin from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it.
 
 *How do I feel about this project?* Good 🙂
 
@@ -577,7 +577,7 @@ Wait, why is Litecoin here? Well, there's a MimbleWimble implementation that's c
 
 **Why this coin isn't with the other privacy coins?**: 
 
-It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implemention.
+It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implementation.
 
 **References**:
 - [https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private](https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private)
@@ -621,7 +621,7 @@ Can't find much in the way of good info on the privacy features in this project.
 
 **Why this coin isn't with the other privacy coins?**: 
 
-Might be a fine psuedo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.
+Might be a fine pseudo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.
 
 **References**:
 - [https://cryptocoin.news/press-releases/heres-why-you-should-choose-counos-x-for-your-financial-transfers-46095/](https://cryptocoin.news/press-releases/heres-why-you-should-choose-counos-x-for-your-financial-transfers-46095/)

@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin is infinately minable and has a linear inflation rate. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin ranks below VTC and BCN
+Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
 
 *How do I feel about this project?* Good 🙂
 

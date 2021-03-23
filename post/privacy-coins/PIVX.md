@@ -5,7 +5,7 @@
 
 **Privacy**: Opt-In - zk-SNARKs(transactions) 
 
-**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Sheilded transactions per second **/** none? fee
+**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Shielded transactions per second **/** none? fee
 
 **Coin Rundown / Pitch**: 
 

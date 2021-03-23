@@ -3,7 +3,7 @@
 
 **Why this coin isn't with the other privacy coins?**: 
 
-It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implemention.
+It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implementation.
 
 **References**:
 - [https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private](https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private)

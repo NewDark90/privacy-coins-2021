@@ -25,7 +25,7 @@ References:
 ### *RingCT + CryptoNote*
 I'm putting these together as they almost always are used in a pair, most notably in Monero.
 
-RingCT works by sending multiple "decoy" transactions among the actual transaction. The amount is not known to anyone other than sender and reciever.
+RingCT works by sending multiple "decoy" transactions among the actual transaction. The amount is not known to anyone other than sender and receiver.
 CryptoNote handles generating one-time use addresses to use for a transaction.
 
 Together, the amount of anonymity is very solid. Its not perfect given it partly uses "security through obscurity" with multiple decoys. 
@@ -79,7 +79,7 @@ References:
 
 ### **MimbleWimble**
 
-A newer technology that hides all transactions and amounts. Uses a "blinding factor" that acts similiarly to secret addresses that are shared between both parties, which means only the sender and reciever know they are a part of the transaction. Also, probably most importantly, MimbleWimble is a Harry Potter spell for tongue-tying.
+A newer technology that hides all transactions and amounts. Uses a "blinding factor" that acts similarly to secret addresses that are shared between both parties, which means only the sender and receiver know they are a part of the transaction. Also, probably most importantly, MimbleWimble is a Harry Potter spell for tongue-tying.
 
 Pros:
 

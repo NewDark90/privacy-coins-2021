@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-Seems like the privacy-first tech is stronger than Monero. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
+Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
 
 *How do I feel about this project?* Good 🙂
 

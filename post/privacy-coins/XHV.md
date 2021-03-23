@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-Uses XMR tech. Has high fees and long transaction times. I love the inherit contrictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
+Uses XMR tech. Has high fees and long transaction times. I love the inherent contradictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
 
 *How do I feel about this project?* Wary 😟
 

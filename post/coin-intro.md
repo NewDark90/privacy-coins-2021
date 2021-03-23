@@ -10,5 +10,5 @@ Before going into the details of every coin in this list. I want to make a few t
 
 *Fourth*, remember that this is a **very small** sector of the crypto market currently. Many of these coins are going to be far below the top 100. I've limited the criteria to be any coin over $20 million Market Cap on 3/13 (~0.002% of BTC), so the floor for these coins is very low. Why that number specifically? Mostly, I wanted to make sure Grin made the cut. Beyond that, it was trying to keep interesting projects I found near that line also in the cut. I also didn't want to add a bunch of extra work for truly bottom of the barrel coins. If you have a favorite down there that does something interesting and unique beyond being another Monero clone, I want to know. 
 
-I'll also have a special list underneath these coins that specifically call out the coins that were marked as private by at least one of these lists, and reasoning as to why I think it isn't really a privacy coin.
+*Finally*, I'll also have a special list underneath these coins that specifically call out the coins that were marked as private by at least one of these lists, and reasoning as to why I think it isn't really a privacy coin.
 

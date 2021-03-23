@@ -13,7 +13,7 @@
 
 **My Impression**: 
 
-An "in-house" privacy token based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.
+An "in-house" privacy coin based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.
 
 *How do I feel about this project?* Wary 😕
 

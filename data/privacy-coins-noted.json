@@ -102,7 +102,7 @@
         },
         "pitch": "Dash is an open-source blockchain and cryptocurrency focused on offering a fast, cheap global payments network that is decentralized in nature. According to the project's white paper, Dash seeks to improve upon Bitcoin (BTC) by providing stronger privacy and faster transactions. Dash, whose name comes from \"digital cash,\" was launched in January 2014 as a fork of Litecoin (LTC). Since going live, Dash has grown to include features such as a two-tier network with incentivized nodes, including \"masternodes,\" and decentralized project governance; InstantSend, which allows for instantly settled payments; ChainLocks, which makes the Dash blockchain instantly immutable; and PrivateSend, which offers additional optional privacy for transactions.",
         "impression": {
-            "long": "It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implemention.",
+            "long": "It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implementation.",
             "short": ""
         },
         "pros": [],
@@ -335,7 +335,7 @@
         },
         "pitch": "Secret Network is the first blockchain with privacy-preserving smart contracts. Applications built on Secret Network utilize encrypted data without exposing it to anyone, even the nodes in the network. Secret Network empowers developers to build decentralized, permissionless, privacy-preserving applications - Secret Apps. For blockchain technology to reach global adoption, users and organizations need granular control over their data. Private by default - transparent when needed - Secret Network's programmable privacy delivers this level of control, securing and scaling Web 3.0.",
         "impression": {
-            "long": "Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has it's own blockchain now. Seems like a niche use case, but also a necessary one.",
+            "long": "Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has its own blockchain now. Seems like a niche use case, but also a necessary one.",
             "short": "Neutral",
             "emoji": "😐"
         },
@@ -372,7 +372,7 @@
         },
         "pitch": "Haven Protocol is similar to an offshore bank where users can create private tokens that represent stable and volatile assets, including commodities and fiat currencies (such as USD). The protocol is based on Monero, which focuses on secure, private and untraceable transactions. As a result, most of the features of Monero extend to the Haven protocol, including the bulletproofs and other privacy tech. The base currency of Haven is the XHV, which is burnt to provide users with private, untraceable, synthetic assets and commodities called xAssets. The network uses a “mint and burn” process to provide users with untraceable digital assets with standard market pricing and real asset-pegged value storage. Simply, users can burn Haven (XHV) for Haven Dollars (xUSD), which is a synthetic stablecoin.",
         "impression": {
-            "long": "Uses XMR tech. Has high fees and long transaction times. I love the inherit contrictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an \"offshore bank\", but the FAQ has this line: \"Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws.\" - lol",
+            "long": "Uses XMR tech. Has high fees and long transaction times. I love the inherent contradictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an \"offshore bank\", but the FAQ has this line: \"Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws.\" - lol",
             "short": "Wary",
             "emoji": "😟"
         },
@@ -445,7 +445,7 @@
         },
         "pitch": "Launched on 1 June 2019 by a team based in Switzerland, Counos X was designed to facilitate payments and clearing purchase invoices, especially for easy exchange with fiat money. While its price is determined in the market, attempts will be made to prevent its value from fluctuating too much.",
         "impression": {
-            "long": "Might be a fine psuedo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.",
+            "long": "Might be a fine pseudo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.",
             "short": ""
         },
         "pros": [],
@@ -520,7 +520,7 @@
         },
         "pitch": "Firo (formerly ZCoin) is a digital currency that enables untraceable private transactions, offering users freedom from large financial institutions. The team behind the project believes that privacy is a human right and that people need the option to regain control over their money. Firo uses zero-knowledge proofs in order to maintain anonymity. The technology allows users to prove to their counterparties that they own the Firo coins they are sending without actually revealing the source of the coins. When a coin is minted, it is destroyed soon after. When this occurs, the Zerocoin protocol generates a random serial number and a secret number. These are used in a cryptographic function to generate a value that a user becomes committed to. The value is then posted on the blockchain in order to prevent it from being changed again in the future.",
         "impression": {
-            "long": "Seems like the privacy-first tech is stronger than Monero. The \"burn and mint\" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.",
+            "long": "Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote. The \"burn and mint\" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.",
             "short": "Good",
             "emoji": "🙂"
         },
@@ -557,7 +557,7 @@
         },
         "pitch": "The Beldex coin (BDX) is one of the very first privacy coins to act as an in-house token. The token is cryptographically designed in such a way, that is can be easily integrated into the Beldex extended ecosystem. It distinguishes itself from other coins by providing better privacy and security. The Beldex coin improves on the features of Monero while introducing its own advancements. Beldex has a default ring size of 10, as opposed to Monero, which strengthens transaction privacy. Thus, the coin offers default privacy. Ring sizes are not immutable and are flexible as users can increase the size as per their requirement. Beldex is the world's first islamic compliant exchange.",
         "impression": {
-            "long": "An \"in-house\" privacy token based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.",
+            "long": "An \"in-house\" privacy coin based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.",
             "short": "Wary",
             "emoji": "😕"
         },
@@ -715,7 +715,7 @@
         "isPrivacyCoin": true,
         "references": [],
         "transactions": {
-            "per_second": "<=173 TPS Unshielded, <=60 TPS Sheilded",
+            "per_second": "<=173 TPS Unshielded, <=60 TPS Shielded",
             "block_time": "1 min",
             "fee": "none?"
         },
@@ -1004,7 +1004,7 @@
         },
         "pitch": "Grin is a minimalistic, lightweight cryptocurrency, implementing the Mimblewimble protocol for a unique balance of privacy and scalability. The chain has no addresses, no amounts, and no need to store data of spent outputs. Grin is fully open-source and community-driven. There is no single entity behind it, Grin’s development is funded by donations as well as done voluntarily by contributors. Everybody can discuss, influence, or work on its development. Grin’s blocktime is 1 minute, each with a coinbase reward of 60 grins, thus creating 1 unit per second, forever. This linear emission creates a constant increase in supply, but a decreasing rate of inflation; making the emission disinflationary. This simple design serves to ensure both the long term security of the chain and a fair process of coin distribution to all participants.",
         "impression": {
-            "long": "Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin is infinately minable and has a linear inflation rate. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin ranks below VTC and BCN",
+            "long": "Grin is my second favorite coin of the three MimbleWimble variants. It's team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.",
             "short": "Good",
             "emoji": "🙂"
         },
@@ -1073,7 +1073,7 @@
         },
         "pitch": "Navcoin (NAV) is an open-sourced digital currency with privacy-enhanced features. Transactions that occur on the blockchain of Navcoin are made in a peer-to-peer fashion with no need for intermediaries. Following the release of Navcoin Core 6.0, it’s possible to store and transact coins both publicly (NAV) and privately (xNAV). When making a private transaction, it will not be possible to link the transaction to its sender or receiver, or even view the amount that was sent. This is made possible by Navcoin’s self-developed privacy protocol called Boneh-Lynn-Shacham Confidential Transactions (blsCT). Navcoin was invented in 2014 and had no pre-mine or ICO. With block times of 30 seconds, one can stake their coins to earn rewards through Proof of Stake Version 3 (PoSv3) for helping to secure the network. Navcoin’s current spendable supply is 69M NAV with a block reward of 2.5 NAV, hence a decreasing inflation model. From the 2.5 NAV, 2 NAV are redirected to the staker who found the block, and 0.5 NAV are accumulated in a decentralized treasury used to fund community initiatives based on the outcome of DAO votings. Navcoin’s decentralized autonomous organization (DAO) enables the community to be self-funded through its treasury, self-guided through consultations, and self-governed through consensus changes.",
         "impression": {
-            "long": "At first glance, seeing this coin was from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it.",
+            "long": "At first glance, seeing this coin from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it.",
             "short": "Good",
             "emoji": "🙂"
         },
