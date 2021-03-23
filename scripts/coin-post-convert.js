@@ -1,4 +1,4 @@
-const convert = () => {
+const convert = (callback) => {
     const fs = require("fs"); 
 
     const allCoins = require("../data/privacy-coins-noted");
@@ -25,30 +25,29 @@ const convert = () => {
             priceDisplay = `$${priceDisplay.toFixed(0)}`;
 
         let markdown = `
+## *${coin.name}* - ${coin.ticker}
 
-    ## *${coin.name}* - ${coin.ticker}
+**Market Cap**: ~${priceDisplay}
 
-    **Market Cap**: ~${priceDisplay}
+**Privacy**: ${coin.privacy.type} - ${coin.privacy.tech.join(", ")} 
 
-    **Privacy**: ${coin.privacy.type} - ${coin.privacy.tech.join(", ")} 
+**Transaction Stats**: ${coin.transactions.block_time} block time **/** ${coin.transactions.per_second} transactions per second **/** ${coin.transactions.fee} fee
 
-    **Transaction Stats**: ${coin.transactions.block_time} block time **/** ${coin.transactions.per_second} transactions per second **/** ${coin.transactions.fee} fee
+**Coin Rundown / Pitch**: 
 
-    **Coin Rundown / Pitch**: 
+> ${coin.pitch}
 
-    > ${coin.pitch}
+**My Impression**: 
 
-    **My Impression**: 
+${coin.impression.long}
 
-    *${coin.impression.short}* ${coin.impression.emoji}
+*How do I feel about this project?* ${coin.impression.short} ${coin.impression.emoji}
 
-    ${coin.impression.long}
+${coin.references.length ? "**References**:" : ""}
+${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
 
-    ${coin.references.length ? "**References**:" : ""}
-    ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
-
-    ---
-    `;
+---
+`;
 
         markdowns.push(markdown);
 
@@ -69,19 +68,17 @@ const convert = () => {
     nonPrivacyCoins.forEach((coin, i) => {
 
         let markdown = `
+### *${coin.name}* - ${coin.ticker}
 
-    ## **${coin.name}** - ${coin.ticker}
+**Why this coin isn't with the other privacy coins?**: 
 
-    **Why this coin isn't with the other privacy coins?**: 
+${coin.impression.long}
 
-    ${coin.impression.long}
+${coin.references.length ? "**References**:" : ""}
+${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
 
-    ${coin.references.length ? "**References**:" : ""}
-    ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
-
-    ---
-
-        `;
+---
+`;
 
         markdowns.push(markdown);
 
@@ -101,6 +98,9 @@ const convert = () => {
             
         // Checking for errors 
         if (err) throw err;  
+
+        if (callback)
+            callback();
     }); 
 }
 
