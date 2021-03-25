@@ -15,9 +15,6 @@
 
 Seems OK. 10% Premine. Nothing amazing jumping out at me, but nothing horribly offensive either. Big shrug here.
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://forum.dero.io/t/lower-the-transaction-fee/174](https://forum.dero.io/t/lower-the-transaction-fee/174)
+*Overall impression*: Neutral 😐
 
 ---

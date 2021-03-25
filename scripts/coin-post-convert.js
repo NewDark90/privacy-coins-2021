@@ -10,6 +10,7 @@ const convert = (callback) => {
     let nonPrivacyCoins = allCoins.filter(coin => !coin.isPrivacyCoin);
 
     let markdowns = [];
+    let refMarkdowns = [];
 
     //markdowns.push("## Privacy Coins");
     markdowns.push("\r\n---");
@@ -41,24 +42,31 @@ const convert = (callback) => {
 
 ${coin.impression.long}
 
-*How do I feel about this project?* ${coin.impression.short} ${coin.impression.emoji}
-
-${coin.references.length ? "**References**:" : ""}
-${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
+*Overall impression*: ${coin.impression.short} ${coin.impression.emoji}
 
 ---
 `;
 
+        let refMarkdown = `
+## *${coin.name}* - ${coin.ticker}
+
+${coin.references.length ? "**References**:" : ""}
+${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
+`;
+
         markdowns.push(markdown);
+        refMarkdowns.push(refMarkdown);
 
         //const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
-        const fileName = `${coin.ticker}.md`;
+        const fileName = `${coin.ticker}`;
 
-        fs.writeFile(`./post/privacy-coins/${fileName}`, markdown, err => { 
-            
-            // Checking for errors 
+        fs.writeFile(`./post/privacy-coins/${fileName}.md`, markdown, err => { 
             if (err) throw err;  
-        
+            console.log(fileName);
+        }); 
+
+        fs.writeFile(`./post/privacy-coins/${fileName}-references.md`, refMarkdown, err => { 
+            if (err) throw err;  
             console.log(fileName);
         }); 
     });
@@ -71,9 +79,14 @@ ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
         let markdown = `
 ### *${coin.name}* - ${coin.ticker}
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 ${coin.impression.long}
+
+---
+`;
+        let refMarkdown = `
+### *${coin.name}* - ${coin.ticker}
 
 ${coin.references.length ? "**References**:" : ""}
 ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
@@ -81,26 +94,32 @@ ${coin.references.map(ref => `- [${ref}](${ref})`).join("\r\n")}
 ---
 `;
 
+
         markdowns.push(markdown);
 
         //const fileName = `coin-${(i + 1).toString().padStart(2, '0')}-${coin.ticker}.md`;
-        const fileName = `${coin.ticker}.md`;
+        const fileName = `${coin.ticker}`;
 
-        fs.writeFile(`./post/fake-coins/${fileName}`, markdown, err => { 
-            
-            // Checking for errors 
+        fs.writeFile(`./post/fake-coins/${fileName}.md`, markdown, err => { 
             if (err) throw err;  
-        
+            console.log(fileName);
+        }); 
+
+        fs.writeFile(`./post/fake-coins/${fileName}-references.md`, refMarkdown, err => { 
+            if (err) throw err;  
             console.log(fileName);
         }); 
     });
 
-
-    fs.writeFile(`./post/coins-all.md`, markdowns.join("\r\n\r\n"), err => { 
-            
-        // Checking for errors 
+    fs.writeFile(`./post/coins-all.md`, markdowns.join("\r\n"), err => { 
         if (err) throw err;  
+        if (callback)
+            callback();
+    }); 
 
+
+    fs.writeFile(`./post/coins-all-references.md`, refMarkdowns.join("\r\n"), err => { 
+        if (err) throw err;
         if (callback)
             callback();
     }); 

@@ -15,11 +15,6 @@
 
 This project looks kind of dead. Last github commit in 2019? That's a yikes. And look at that! 80%+ Premine? Another yikes. Monero looks like it was spun off the tech here and made into a real project. The fact this is so high on this list is, frankly amazing.
 
-*How do I feel about this project?* [Oof](https://www.youtube.com/watch?v=LN0-_fEDLCQ) 😣
-
-**References**:
-- [https://old.reddit.com/r/BytecoinBCN/comments/lek4b7/bytecoin_is_not_dead/](https://old.reddit.com/r/BytecoinBCN/comments/lek4b7/bytecoin_is_not_dead/)
-- [https://captainaltcoin.com/bytecoin-bcn-price-prediction](https://captainaltcoin.com/bytecoin-bcn-price-prediction)
-- [https://old.reddit.com/r/Monero/comments/26we1g/why_monero_and_not_bytecoin/](https://old.reddit.com/r/Monero/comments/26we1g/why_monero_and_not_bytecoin/)
+*Overall impression*: [Oof](https://www.youtube.com/watch?v=LN0-_fEDLCQ) 😣
 
 ---

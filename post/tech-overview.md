@@ -18,10 +18,6 @@ Cons:
 - Requires mixers to be online
 - Acquiring coins from a mixer may give you coins that are being tracked and/or tied to illegal activity
 
-References: 
-- [https://academy.bit2me.com/en/what-is-coinjoin/](https://academy.bit2me.com/en/what-is-coinjoin/)
-- [https://www.investopedia.com/terms/c/coinjoin.asp](https://www.investopedia.com/terms/c/coinjoin.asp)
-
 ### *RingCT + CryptoNote*
 I'm putting these together as they almost always are used in a pair, most notably in Monero.
 
@@ -45,12 +41,6 @@ Cons:
 - Ring size is practically limited
 - Does not have supply auditability meaning hidden inflation can go undetected
 
-References: 
-- [https://www.getmonero.org/resources/moneropedia/ringCT.html](https://www.getmonero.org/resources/moneropedia/ringCT.html)
-- [https://blockonomi.com/cryptonote-technology/](https://blockonomi.com/cryptonote-technology/)
-- [https://www.wired.com/story/monero-privacy/](https://www.wired.com/story/monero-privacy/)
-
-
 ### *Zero-Knowledge Proofs (zk-SNARKs, zk-STARKs, Bulletproofs)*
 
 A method of proving a transaction is valid, without identifying any other information about it. 
@@ -71,12 +61,6 @@ Cons:
 - Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins
 - Does not have supply auditability meaning hidden inflation can go undetected
 
-References:
-- [https://z.cash/technology/zksnarks/](https://z.cash/technology/zksnarks/)
-- [https://github.com/matter-labs/awesome-zero-knowledge-proofs#comparison-of-the-most-popular-zkp-systems](https://github.com/matter-labs/awesome-zero-knowledge-proofs#comparison-of-the-most-popular-zkp-systems)
-- [https://cointelegraph.com/news/why-setup-matters-for-cryptocurrency-privacy](https://cointelegraph.com/news/why-setup-matters-for-cryptocurrency-privacy)
-- [https://z.cash/technology/paramgen/](https://z.cash/technology/paramgen/)
-
 ### **MimbleWimble**
 
 A newer technology that hides all transactions and amounts. Uses a "blinding factor" that acts similarly to secret addresses that are shared between both parties, which means only the sender and receiver know they are a part of the transaction. Also, probably most importantly, MimbleWimble is a Harry Potter spell for tongue-tying.
@@ -88,21 +72,16 @@ Pros:
 - Hides transaction amounts
 - Blockchain can reduce in size as it only retains UTXOs
 - No re-use of address problems
+- Minimal risk to send to incorrect address as receiver must be online.
 
 Cons: 
 
-- Needs interaction between receiver and sender. Cannot post address and receive. Multi-party transactions are problematic as all parties need to communicate to create a transaction
+- Needs interaction between receiver and sender. 
 - Does not break transaction links, merely obscures them, hence a 'decoy' model
     - Transaction links are to secret addresses, not a wallet
 - Cold storage in hardware wallets are tricky to implement
 - Smart contracts are harder to implement on MimbleWimble
 - Relatively early in development
-- Doesn't share Bitcoin core code, making third-party integration more challenging
-
-References: 
-- [https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/](https://cryptopotato.com/what-is-mimblewimble-the-complete-beginners-guide/)
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
 
 ### *Lelantus*
 
@@ -124,11 +103,6 @@ Cons:
 - Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent
 - Still in early development, potential bugs and exploits could arise
 
-References: 
-- [https://medium.com/@zcoin/lelantus-zcoins-next-gen-privacy-protocol-f17ac53be277](https://medium.com/@zcoin/lelantus-zcoins-next-gen-privacy-protocol-f17ac53be277)
-- [https://forum.firo.org/t/lelantus-disabled-temporarily](https://forum.firo.org/t/lelantus-disabled-temporarily)
-- [Zcoin's Upcoming Privacy Protocols: Sigma and Lelantus](https://www.youtube.com/watch?v=HSf8bqC0Pcw)
-
 ## Network Tech Overview
 
 Not all protections are implemented directly on the blockchain. There are some network level tools that are also occasionally included within the wallet software or the blockchain nodes themselves.
@@ -137,17 +111,7 @@ Not all protections are implemented directly on the blockchain. There are some n
 
 You probably know Tor, right? It hides your IP while browsing the internet. You send a request to the Tor network. That request gets bounced around several random network nodes before finally exiting.
 
-References: 
-- [https://www.csoonline.com/article/3287653/what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html](https://www.csoonline.com/article/3287653/what-is-the-tor-browser-how-it-works-and-how-it-can-help-you-protect-your-identity-online.html)
-
 ### *Dandelion++*
 
 Instead of immediately broadcasting a transaction to the blockchain to spread, a transaction is passed through a few blockchain nodes sequentially and anonymously before being broadcast to the network.
-
-References:
-- [https://blockonomi.com/dandelion-protocol/](https://blockonomi.com/dandelion-protocol/)
-
-
-Further General Reading 
-- [firo.org's Privacy Technology Comparison](https://firo.org/guide/privacy-technology-comparison.html)
 

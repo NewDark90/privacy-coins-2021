@@ -15,10 +15,6 @@
 
 Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has its own blockchain now. Seems like a niche use case, but also a necessary one.
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://www.coindesk.com/enigma-blockchain-has-a-new-name-and-a-privacy-boost-in-the-works](https://www.coindesk.com/enigma-blockchain-has-a-new-name-and-a-privacy-boost-in-the-works)
-- [https://forum.scrt.network/t/typical-transaction-time-and-costs/906](https://forum.scrt.network/t/typical-transaction-time-and-costs/906)
+*Overall impression*: OK 🙂
 
 ---

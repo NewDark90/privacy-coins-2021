@@ -13,17 +13,8 @@
 
 **My Impression**: 
 
-This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well. There's a few things nit-picky issues that bother me with it currently, but most of which I think are being addressed or have band-aid solutions currently.
+This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability for better mass adoption. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well.
 
-*How do I feel about this project?* Great 😄
-
-**References**:
-- [https://beam.mw/faq/how-many-transactions-per-second-does-beam-support](https://beam.mw/faq/how-many-transactions-per-second-does-beam-support)
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
-- [https://medium.com/beam-mw/about-dandelion-and-mimblewimble-e083597e0355](https://medium.com/beam-mw/about-dandelion-and-mimblewimble-e083597e0355)
-- [https://www.coinbureau.com/review/beam-coin/](https://www.coinbureau.com/review/beam-coin/)
-- [https://medium.com/beam-mw/beam-the-best-in-privacy-59023593c06](https://medium.com/beam-mw/beam-the-best-in-privacy-59023593c06)
-- [https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2](https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2)
+*Overall impression*: Great 😁
 
 ---

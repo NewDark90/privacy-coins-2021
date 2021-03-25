@@ -1,7 +1,6 @@
 
 ---
 
-
 ## *Monero* - XMR
 
 **Market Cap**: ~$4.14 billion
@@ -18,19 +17,9 @@
 
 The Bitcoin of privacy coins. The market leader that's more of a store of value than a currency. While transaction fees are high relative to most others listed, they're still very reasonable, especially compared to BTC and ETH. Unless there's major problems that show up with the technology, it will probably stay a major/top coin. If Bitcoin's market dominance has taught me anything, even mildly flawed tech can be a juggernaut industry leader if it's the standard people build around.
 
-*How do I feel about this project?* Great 😄
-
-**References**:
-- [https://coingeek.com/monero-is-traceable-using-new-ciphertrace-tool/](https://coingeek.com/monero-is-traceable-using-new-ciphertrace-tool/)
-- [https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/](https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/)
-- [https://www.financemagnates.com/cryptocurrency/news/is-monero-still-a-privacy-coin-ciphertrace-files-2nd-xmr-tracing-patent/](https://www.financemagnates.com/cryptocurrency/news/is-monero-still-a-privacy-coin-ciphertrace-files-2nd-xmr-tracing-patent/)
-- [https://old.reddit.com/r/Monero/comments/72kp2f/is_monero_truly_untraceable_or_is_there_just_a/](https://old.reddit.com/r/Monero/comments/72kp2f/is_monero_truly_untraceable_or_is_there_just_a/)
-- [https://bitinfocharts.com/comparison/monero-transactionfees.html#6m](https://bitinfocharts.com/comparison/monero-transactionfees.html#6m)
-- [https://www.monero.how/monero-transaction-fees](https://www.monero.how/monero-transaction-fees)
-- [https://monero.stackexchange.com/questions/405/how-many-transactions-per-second-can-the-monero-network-handle](https://monero.stackexchange.com/questions/405/how-many-transactions-per-second-can-the-monero-network-handle)
+*Overall impression*: Great 😁
 
 ---
-
 
 
 ## *Zcash* - ZEC
@@ -43,21 +32,15 @@ The Bitcoin of privacy coins. The market leader that's more of a store of value 
 
 **Coin Rundown / Pitch**: 
 
-> Zcash’s main advantage lies in its optional anonymity, which allows for a level of privacy unattainable with regular, pseudonymous cryptocurrencies like Bitcoin or Ethereum. ZEC transactions can be sent in two ways: transparent and shielded. Transparent transactions work in about the same way as in Bitcoin, whose codebase Zcash was originally based on: they are sent between public addresses and are recorded on an immutable public ledger (the blockchain). All essential information about these transactions is available online for anyone to see, including the sending and receiving addresses and the amount sent. These public transactions do not reveal user identities in an overt manner: the only identifiers an outside observer can access from the blockchain are public addresses. Shielded ZEC transactions leverage the technology of zero-knowledge succinct non-interactive arguments of knowledge, or zk-SNARKs, in order to enable completely anonymous transactions to be sent over a public immutable blockchain.
+> Zcash’s main advantage lies in its optional anonymity, which allows for a level of privacy unattainable with regular, pseudonymous cryptocurrencies like Bitcoin or Ethereum. ZEC transactions can be sent in two ways: transparent and shielded. Transparent transactions work in about the same way as in Bitcoin, whose codebase Zcash was originally based on: they are sent between public addresses and are recorded on an immutable public ledger (the blockchain). All essential information about these transactions is available online for anyone to see, including the sending and receiving addresses and the amount sent. These public transactions do not reveal user identities in an overt manner: the only identifiers an outside observer can access from the blockchain are public addresses. Shielded ZEC transactions leverage the technology of zk-SNARKs, in order to enable anonymous transactions to be sent over a public immutable blockchain.
 
 **My Impression**: 
 
-Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private). Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin. Hard to say if it's undervalued given how small the sector is overall or overvalued given how good some of the other coins are.
+Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARKs implementation. Most transactions aren't z-address to z-address (private). Transaction stats seem passable, but not amazing. If privacy is your main concern, I'd look elsewhere. Otherwise it seems like a decent coin.
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/](https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/)
-- [https://cointelegraph.com/news/researchers-claim-999-of-zcash-transactions-are-traceable](https://cointelegraph.com/news/researchers-claim-999-of-zcash-transactions-are-traceable)
-- [https://old.reddit.com/r/zec/comments/662iq4/noob_question_whats_zcash_network_transactions/?st=JGWQXK4K&sh=3add5e26](https://old.reddit.com/r/zec/comments/662iq4/noob_question_whats_zcash_network_transactions/?st=JGWQXK4K&sh=3add5e26)
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *Horizen* - ZEN
@@ -66,7 +49,7 @@ Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARK
 
 **Privacy**: Opt-In - zk-SNARKs 
 
-**Transaction Stats**: 2.5 min block time **/** undefined transactions per second **/** ? fee
+**Transaction Stats**: 2.5 min block time **/** ? transactions per second **/** ? fee
 
 **Coin Rundown / Pitch**: 
 
@@ -74,15 +57,11 @@ Another Opt-In privacy coin. This coin is the highest market cap with a zk-SNARK
 
 **My Impression**: 
 
-Opt-In zk-SNARKs implementation... wait, is this ZCash? No? Ok. Blockchains on blockchains? Sounds cool, but I don't know what to make of it. Hard to dig up details on this one.
+Opt-In zk-SNARKs, but with [blockchains on your blockchain?](https://i.imgur.com/m8DNm5i.jpg) Sounds cool, but I don't know if that's a good enough reason to use it over others.
 
-*How do I feel about this project?* Neutral 😐
-
-
-
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *Verge* - XVG
@@ -101,15 +80,9 @@ Opt-In zk-SNARKs implementation... wait, is this ZCash? No? Ok. Blockchains on b
 
 Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARKs, oof. The chain has also been 51% attacked quite a few times, and recently had its block history re-written for a short time before a fix. That said, this coin has some pretty good transaction stats and quite a few good features like an atomic swap functionality, and smart contracts being implemented in the future through RSK. It's an interesting project that's had a shaky and strange history.
 
-*How do I feel about this project?* Wary 😟
-
-**References**:
-- [https://medium.com/@sashakolupaev/what-is-the-wraith-protocol-bd1dfb289cda](https://medium.com/@sashakolupaev/what-is-the-wraith-protocol-bd1dfb289cda)
-- [https://www.coinbureau.com/review/verge-xvg/](https://www.coinbureau.com/review/verge-xvg/)
-- [https://old.reddit.com/r/CryptoCurrency/comments/avvmb9/verge_xvg_has_lost_94_percent_of_its_value_after/](https://old.reddit.com/r/CryptoCurrency/comments/avvmb9/verge_xvg_has_lost_94_percent_of_its_value_after/)
+*Overall impression*: Wary 😟
 
 ---
-
 
 
 ## *Secret* - SCRT
@@ -128,14 +101,9 @@ Wraith Protocol is optional, and it leaks the transaction amount unlike zk-SNARK
 
 Seems like less of a currency, and more of a 'computational gas' for secret smart contracts. It used to be an ETH token, but has its own blockchain now. Seems like a niche use case, but also a necessary one.
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://www.coindesk.com/enigma-blockchain-has-a-new-name-and-a-privacy-boost-in-the-works](https://www.coindesk.com/enigma-blockchain-has-a-new-name-and-a-privacy-boost-in-the-works)
-- [https://forum.scrt.network/t/typical-transaction-time-and-costs/906](https://forum.scrt.network/t/typical-transaction-time-and-costs/906)
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *Haven Protocol* - XHV
@@ -148,20 +116,15 @@ Seems like less of a currency, and more of a 'computational gas' for secret smar
 
 **Coin Rundown / Pitch**: 
 
-> Haven Protocol is similar to an offshore bank where users can create private tokens that represent stable and volatile assets, including commodities and fiat currencies (such as USD). The protocol is based on Monero, which focuses on secure, private and untraceable transactions. As a result, most of the features of Monero extend to the Haven protocol, including the bulletproofs and other privacy tech. The base currency of Haven is the XHV, which is burnt to provide users with private, untraceable, synthetic assets and commodities called xAssets. The network uses a “mint and burn” process to provide users with untraceable digital assets with standard market pricing and real asset-pegged value storage. Simply, users can burn Haven (XHV) for Haven Dollars (xUSD), which is a synthetic stablecoin.
+> Haven Protocol is similar to an offshore bank where users can create private tokens that represent stable and volatile assets, including commodities and fiat currencies (such as USD). The protocol is based on Monero, which focuses on secure, private and untraceable transactions. As a result, most of the features of Monero extend to the Haven protocol, including the bulletproofs and other privacy tech. The base currency of Haven is the XHV, which is burnt to provide users with private, untraceable, synthetic assets and commodities called xAssets.
 
 **My Impression**: 
 
-Uses XMR tech. Has high fees and long transaction times. I love the inherent contradictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
+Has high fees and long transaction times. I love the inherent contradictory nature of what this one promotes versus what it explicitly says. The pitch really does say it all really. You're an "offshore bank", but the FAQ has this line: "Note: Although Haven transactions are private it should not be used for illicit or illegal purposes that violate a user’s local or national laws." - lol
 
-*How do I feel about this project?* Wary 😟
-
-**References**:
-- [https://havenprotocol.org/knowledge/transaction-fees/](https://havenprotocol.org/knowledge/transaction-fees/)
-- [https://havenprotocol.org/faqs/](https://havenprotocol.org/faqs/)
+*Overall impression*: Wary 😟
 
 ---
-
 
 
 ## *Phala Network* - PHA
@@ -174,19 +137,15 @@ Uses XMR tech. Has high fees and long transaction times. I love the inherent con
 
 **Coin Rundown / Pitch**: 
 
-> Phala Network tackles the issue of trust in the computation cloud. This blockchain is a trustless computation platform that enables massive cloud processing without sacrificing data confidentiality. Built around TEE-based privacy technology already embedded into modern processors, Phala Network's distributed computing cloud is versatile and confidential. By separating the consensus mechanism from computation, Phala ensures processing power is highly scalable. Together, this creates the infrastructure for a powerful, secure, and scalable trustless computing cloud. As a member parachain of the Polkadot cross-chain ecosystem, Phala will be able to provide computing power to other blockchain applications while protecting the data layer, enabling possibilities like privacy-protected DeFi trading positions and transaction history, co-computing DID confidential data, developing light-node cross-chain bridges, and more.
+> Phala Network tackles the issue of trust in the computation cloud. This blockchain is a trustless computation platform that enables massive cloud processing without sacrificing data confidentiality. Built around TEE-based privacy technology already embedded into modern processors, Phala Network's distributed computing cloud is versatile and confidential. By separating the consensus mechanism from computation, Phala ensures processing power is highly scalable. Together, this creates the infrastructure for a powerful, secure, and scalable trustless computing cloud. Phala is a member parachain of the Polkadot cross-chain ecosystem.
 
 **My Impression**: 
 
-Seems kind of like SCRT in that it's used for private blockchain computing. Seems niche but useful.
+Seems kind of like SCRT in that it's used for private blockchain computing. Seems niche, probably useful.
 
-*How do I feel about this project?* Neutral 😐
-
-
-
+*Overall impression*: Neutral 😐
 
 ---
-
 
 
 ## *MimbleWimbleCoin* - MWC
@@ -199,22 +158,15 @@ Seems kind of like SCRT in that it's used for private blockchain computing. Seem
 
 **Coin Rundown / Pitch**: 
 
-> MWC is an in-progress implementation of the MimbleWimble protocol. Many characteristics are still undefined but the following constitutes the first set of choices: Clean and minimal implementation, and aiming to stay as such. Follows the Mimblewimble protocol, which provides hidden amounts and scaling advantages. Cuckoo Cycle proof of work in two variants named Cuckaroo (ASIC-resistant) and Cuckatoo (ASIC-targeted). Relatively fast block time: one minute. Fixed block reward over time with a decreasing dilution. Transaction fees are based on the number of Outputs created/destroyed and total transaction size. Smooth curve for difficulty adjustments.
+> MWC is an in-progress implementation of the MimbleWimble protocol. Many characteristics are still undefined but the following constitutes the first set of choices: Clean and minimal implementation, and aiming to stay as such. Follows the Mimblewimble protocol, which provides hidden amounts and scaling advantages. Relatively fast block time: one minute. Fixed block reward over time with a decreasing dilution.
 
 **My Impression**: 
 
 The first MimbleWimble-based coin on the list is, well, MimbleWimbleCoin. It's my least favorite of the three. Half of this coin was pre-mined and distributed to BTC holders that signed up for a few airdrops in 2019 and 2020. The trading volume of this coin is also very low. Overall, this project seems sketchy. There doesn't seem to be anything about this coin that BEAM or GRIN does better on some level. My hunch says this one will fade.
 
-*How do I feel about this project?* Wary 😕
-
-**References**:
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
-- [https://www.mwc.mw/mimble-wimble-coin-articles/thoughts-on-the-mwc-initial-supply](https://www.mwc.mw/mimble-wimble-coin-articles/thoughts-on-the-mwc-initial-supply)
-- [https://www.mwc.mw/mimble-wimble-coin-articles/future-of-privacy-in-mwc](https://www.mwc.mw/mimble-wimble-coin-articles/future-of-privacy-in-mwc)
+*Overall impression*: Wary 😕
 
 ---
-
 
 
 ## *Firo* - FIRO
@@ -223,7 +175,7 @@ The first MimbleWimble-based coin on the list is, well, MimbleWimbleCoin. It's m
 
 **Privacy**: Full - Lelantus, Dandelion++ 
 
-**Transaction Stats**: 5 min block time **/** ? transactions per second **/** none? fee
+**Transaction Stats**: 5 min block time **/** ~14? transactions per second **/** ~0.0005 Firo fee
 
 **Coin Rundown / Pitch**: 
 
@@ -231,17 +183,11 @@ The first MimbleWimble-based coin on the list is, well, MimbleWimbleCoin. It's m
 
 **My Impression**: 
 
-Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
+Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote, while not requiring a trusted setup unlike zk-SNARKs. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles. It's early for Lelantus so it's not as battle tested, which is a concern.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://firo.org/guide/privacy-technology-comparison.html](https://firo.org/guide/privacy-technology-comparison.html)
-- [https://firo.org/2021/01/28/chainlocks-activated-mainnet.html](https://firo.org/2021/01/28/chainlocks-activated-mainnet.html)
-- [https://www.coinbureau.com/review/zcoin-xzc/](https://www.coinbureau.com/review/zcoin-xzc/)
+*Overall impression*: Good 😃
 
 ---
-
 
 
 ## *Beldex* - BDX
@@ -258,15 +204,11 @@ Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote
 
 **My Impression**: 
 
-An "in-house" privacy coin based on an Islamic exchange website? Huh. Easily one of more niche coins in this list. The only use case I can tell is if you really want to use this exchange specifically. Monero already exists, and this is just a slightly modified Monero implementation.
+An "in-house" privacy coin based on an Islamic exchange website? Huh. Easily one of more niche coins in this list.
 
-*How do I feel about this project?* Wary 😕
-
-
-
+*Overall impression*: Wary 😕
 
 ---
-
 
 
 ## *Bytecoin* - BCN
@@ -285,15 +227,9 @@ An "in-house" privacy coin based on an Islamic exchange website? Huh. Easily one
 
 This project looks kind of dead. Last github commit in 2019? That's a yikes. And look at that! 80%+ Premine? Another yikes. Monero looks like it was spun off the tech here and made into a real project. The fact this is so high on this list is, frankly amazing.
 
-*How do I feel about this project?* [Oof](https://www.youtube.com/watch?v=LN0-_fEDLCQ) 😣
-
-**References**:
-- [https://old.reddit.com/r/BytecoinBCN/comments/lek4b7/bytecoin_is_not_dead/](https://old.reddit.com/r/BytecoinBCN/comments/lek4b7/bytecoin_is_not_dead/)
-- [https://captainaltcoin.com/bytecoin-bcn-price-prediction](https://captainaltcoin.com/bytecoin-bcn-price-prediction)
-- [https://old.reddit.com/r/Monero/comments/26we1g/why_monero_and_not_bytecoin/](https://old.reddit.com/r/Monero/comments/26we1g/why_monero_and_not_bytecoin/)
+*Overall impression*: [Oof](https://www.youtube.com/watch?v=LN0-_fEDLCQ) 😣
 
 ---
-
 
 
 ## *Beam* - BEAM
@@ -310,21 +246,11 @@ This project looks kind of dead. Last github commit in 2019? That's a yikes. And
 
 **My Impression**: 
 
-This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well. There's a few things nit-picky issues that bother me with it currently, but most of which I think are being addressed or have band-aid solutions currently.
+This is my favorite of the three MW coins, and one of the main reasons I wanted to dig into all of the privacy coins. While it is private by default, it has opt-in auditability for better mass adoption. The amount of [extra features](https://beam.mw/features) that have been developed and the [roadmap](https://beam.mw/#roadmap) look very good for the future. Devs and the foundation get a 20% cut of the miner rewards for the first five years, which would seem to incentivize them to have BEAM succeed, but I can also see if that would bother some as well.
 
-*How do I feel about this project?* Great 😄
-
-**References**:
-- [https://beam.mw/faq/how-many-transactions-per-second-does-beam-support](https://beam.mw/faq/how-many-transactions-per-second-does-beam-support)
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
-- [https://medium.com/beam-mw/about-dandelion-and-mimblewimble-e083597e0355](https://medium.com/beam-mw/about-dandelion-and-mimblewimble-e083597e0355)
-- [https://www.coinbureau.com/review/beam-coin/](https://www.coinbureau.com/review/beam-coin/)
-- [https://medium.com/beam-mw/beam-the-best-in-privacy-59023593c06](https://medium.com/beam-mw/beam-the-best-in-privacy-59023593c06)
-- [https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2](https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2)
+*Overall impression*: Great 😁
 
 ---
-
 
 
 ## *PIVX* - PIVX
@@ -333,23 +259,19 @@ This is my favorite of the three MW coins, and one of the main reasons I wanted 
 
 **Privacy**: Opt-In - zk-SNARKs(transactions) 
 
-**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Shielded transactions per second **/** none? fee
+**Transaction Stats**: 1 min block time **/** <=173 TPS Unshielded, <=60 TPS Shielded transactions per second **/** 0.01 PIVX fee
 
 **Coin Rundown / Pitch**: 
 
-> PIVX is a decentralized autonomous organization (DAO) that is self-funded and community-driven. It is a third-generation privacy coin and uses a modified version of Dash’s masternode architecture. It also uses Zcoin’s Zerocoin privacy protocol. Its transaction capacity can reach up to 1000 transactions per second through the usage of the SwiftxX payment protocol. PIVX also uses a proof-of-stake consensus mechanism that involves two parties: the masternodes and the validators. Masternodes are responsible for voting on development proposals that are put forward by the PIVX community and validating the transactions on the blockchain with a single confirmation. 10,000 PIVX is the minimum requirement to run a masternode. Each masternode gets 1 vote and is not involved in the mining of new tokens.
+> PIVX is a decentralized autonomous organization (DAO) that is self-funded and community-driven. It is a third-generation privacy coin and uses a modified version of Dash’s masternode architecture. Its transaction capacity can reach up to 1000 transactions per second through the usage of the SwiftxX payment protocol. PIVX also uses a proof-of-stake consensus mechanism that involves two parties: the masternodes and the validators. Masternodes are responsible for voting on development proposals that are put forward by the PIVX community and validating the transactions on the blockchain with a single confirmation. 10,000 PIVX is the minimum requirement to run a masternode. Each masternode gets 1 vote and is not involved in the mining of new tokens.
 
 **My Impression**: 
 
 What is ZCash was proof of stake? That's PIVX in a nutshell. One of the highest PoS coins in this list. Stats are pretty great. Decentralized org. Cold Staking. Seems OK for an Opt-In Coin.
 
-*How do I feel about this project?* Good 🙂
-
-
-
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *Pirate Chain* - ARRR
@@ -362,19 +284,15 @@ What is ZCash was proof of stake? That's PIVX in a nutshell. One of the highest 
 
 **Coin Rundown / Pitch**: 
 
-> Pirate Chain harnesses Delayed Proof of Work (dPoW) from Komodo, zero-knowledge proof (zk-SNARKs) transactions from ZCash, and the rule of enforced private-only transactions by Monero. Whereas many other “privacy” coins have optional privacy features, Pirate (ARRR) claims to be a 100% private send cryptocurrency, as well as the first 'z transaction-only' chain. ZK-Snarks technology (zero-knowledge cryptography) is utilized to shield peer to peer transactions. The team claims that this has created the largest shielded private pool of funds of any privacy coin.
+> Pirate Chain harnesses Delayed Proof of Work (dPoW) from Komodo, zero-knowledge proof (zk-SNARKs) transactions from ZCash, and the rule of enforced private-only transactions by Monero. Whereas many other “privacy” coins have optional privacy features, Pirate (ARRR) claims to be a 100% private send cryptocurrency, as well as the first 'z transaction-only' chain.
 
 **My Impression**: 
 
-What if ZCash only had z-addresses? That's Pirate Chain. If I had ZCash, it'd make me want to convert it to ARRR out of principle. This coin is probably my favorite that uses a zk-SNARKs implementation. With so few coins having privacy features as the default or only way to transact, it's a nice change of pace. The branding might be rough for any kind of mass public adoption, however.
+What if ZCash only had z-addresses? That's Pirate Chain. If I had ZCash, it'd make me want to convert it to ARRR out of principle. This coin is probably my favorite that uses a zk-SNARKs implementation. With so few coins having privacy features as the default or only way to transact, it's a nice change of pace. Needs some more support from exchanges and is light on features. The branding might be rough for any kind of mass public adoption.
 
-*How do I feel about this project?* Great 😄
-
-
-
+*Overall impression*: Good 😃
 
 ---
-
 
 
 ## *Oxen* - OXEN
@@ -391,15 +309,11 @@ What if ZCash only had z-addresses? That's Pirate Chain. If I had ZCash, it'd ma
 
 **My Impression**: 
 
-Based on Monero. Seems like the project is more of a set of developer building blocks for private blockchain-based applications. I like the concept, but hard to say how good the use case is.
+Seems like the project is more of a set of developer building blocks for private blockchain-based applications. I like the concept, but will the developers come?
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://docs.oxen.io/about-the-oxen-blockchain/overview](https://docs.oxen.io/about-the-oxen-blockchain/overview)
+*Overall impression*: Neutral 😐
 
 ---
-
 
 
 ## *VerusCoin* - VRSC
@@ -412,19 +326,15 @@ Based on Monero. Seems like the project is more of a set of developer building b
 
 **Coin Rundown / Pitch**: 
 
-> Verus Coin is a zero-knowledge technology, privacy-oriented project working to offer Public Blockchains as a Service (PBaaS). Verus Coin introduces a new consensus algorithm called Proof of Power, a 50% PoW / 50% PoS algorithm, which aims to solve weaknesses in other PoS systems. The Verus PoP algorithm is reportedly provably immune to 51% hash attacks, making Verus one of the most double-spend resistant public blockchain(s) running. Verus also uses VerusHash 2.0, a quantum-resistant hash algorithm that aims to bridge the performance gap between CPUs, GPUs, and FPGAs. The Verus Coin’s project vision is to enable automatic blockchain provisioning with PBaaS, provisioned by Verus miners, and stakers. Verus claims to be a 100% fairly launched community project, with no-ICO and premine.
+> Verus Coin is a zero-knowledge technology, privacy-oriented project working to offer Public Blockchains as a Service (PBaaS). Verus Coin introduces a new consensus algorithm called Proof of Power, a 50% PoW / 50% PoS algorithm, which aims to solve weaknesses in other PoS systems. The Verus Coin’s project vision is to enable automatic blockchain provisioning with PBaaS, provisioned by Verus miners, and stakers. Verus claims to be a 100% fairly launched community project, with no-ICO and premine.
 
 **My Impression**: 
 
-I'm not going to pretend I'm smart enough to know wheather or not this concept overall is a good idea. I've got mixed feelings here, and mostly I just can't find a good reason to advocate for this coin over others in this list.
+I'm not going to pretend I'm smart enough to know wheather or not this concept overall is a good idea. I just can't find a good reason to advocate for this coin over others in this list.
 
-*How do I feel about this project?* Neutral 😐
-
-
-
+*Overall impression*: Neutral 😐
 
 ---
-
 
 
 ## *Grin* - GRIN
@@ -441,18 +351,11 @@ I'm not going to pretend I'm smart enough to know wheather or not this concept o
 
 **My Impression**: 
 
-Grin is my second favorite coin of the three MimbleWimble variants. Its team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
+Grin is my second favorite coin of the three MimbleWimble variants. Its team is more decentralized and community driven instead of a startup like Beam. The features and roadmap are smaller than BEAM. However, this is still a great looking private currency overall.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
-- [https://www.coinbureau.com/review/grin-coin/](https://www.coinbureau.com/review/grin-coin/)
-- [https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2](https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2)
+*Overall impression*: Good 😃
 
 ---
-
 
 
 ## *Super Zero Protocol* - SERO
@@ -471,13 +374,9 @@ Grin is my second favorite coin of the three MimbleWimble variants. Its team is 
 
 Like ETH, if the tokens used a quicker zk-SNARKs (Super-ZK) implementation. I can't tell if the coin itself has its transactions protected by Super-ZK, and if it's Opt-In or not. It's also unclear if it requires a trusted setup, which to my knowledge, a zk-SNARK implementation does. Without knowing those details, this coin is a hard pass for me.
 
-*How do I feel about this project?* Unsure / DYOR 😕
-
-
-
+*Overall impression*: Unsure / DYOR 😕
 
 ---
-
 
 
 ## *Navcoin* - NAV
@@ -490,21 +389,15 @@ Like ETH, if the tokens used a quicker zk-SNARKs (Super-ZK) implementation. I ca
 
 **Coin Rundown / Pitch**: 
 
-> Navcoin (NAV) is an open-sourced digital currency with privacy-enhanced features. Transactions that occur on the blockchain of Navcoin are made in a peer-to-peer fashion with no need for intermediaries. Following the release of Navcoin Core 6.0, it’s possible to store and transact coins both publicly (NAV) and privately (xNAV). When making a private transaction, it will not be possible to link the transaction to its sender or receiver, or even view the amount that was sent. This is made possible by Navcoin’s self-developed privacy protocol called Boneh-Lynn-Shacham Confidential Transactions (blsCT). Navcoin was invented in 2014 and had no pre-mine or ICO. With block times of 30 seconds, one can stake their coins to earn rewards through Proof of Stake Version 3 (PoSv3) for helping to secure the network. Navcoin’s current spendable supply is 69M NAV with a block reward of 2.5 NAV, hence a decreasing inflation model. From the 2.5 NAV, 2 NAV are redirected to the staker who found the block, and 0.5 NAV are accumulated in a decentralized treasury used to fund community initiatives based on the outcome of DAO votings. Navcoin’s decentralized autonomous organization (DAO) enables the community to be self-funded through its treasury, self-guided through consultations, and self-governed through consensus changes.
+> Navcoin (NAV) is an open-sourced digital currency with privacy-enhanced features. Transactions that occur on the blockchain of Navcoin are made in a peer-to-peer fashion with no need for intermediaries. Following the release of Navcoin Core 6.0, it’s possible to store and transact coins both publicly (NAV) and privately (xNAV). When making a private transaction, it will not be possible to link the transaction to its sender or receiver, or even view the amount that was sent. Navcoin was invented in 2014 and had no pre-mine or ICO. With block times of 30 seconds, one can stake their coins to earn rewards through Proof of Stake Version 3 (PoSv3) for helping to secure the network. Navcoin’s current spendable supply is 69M NAV with a block reward of 2.5 NAV, hence a decreasing inflation model. From the 2.5 NAV, 2 NAV are redirected to the staker who found the block, and 0.5 NAV are accumulated in a decentralized treasury used to fund community initiatives based on the outcome of DAO votings. Navcoin’s decentralized autonomous organization (DAO) enables the community to be self-funded through its treasury, self-guided through consultations, and self-governed through consensus changes.
 
 **My Impression**: 
 
 At first glance, seeing this coin from back in 2014 made it look like it was 2018 bags and I was getting ready to talk shit about it. Looking into it, it's a shame this isn't higher on this list. It's got a lot of nice features. It's stakable, self governed, has regular releases, and seems overall solid. Will it break through and have a great future? Maybe, but it's got a long climb. I'm rooting for it.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://www.coinbureau.com/review/navcoin-nav/](https://www.coinbureau.com/review/navcoin-nav/)
-- [https://old.reddit.com/r/NavCoin/comments/7ktmoz/max_transactions_per_second/](https://old.reddit.com/r/NavCoin/comments/7ktmoz/max_transactions_per_second/)
-- [https://medium.com/nav-coin/comparing-xnav-with-other-privacy-enhanced-coins-151b420629ac](https://medium.com/nav-coin/comparing-xnav-with-other-privacy-enhanced-coins-151b420629ac)
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *CUTcoin* - CUT
@@ -517,19 +410,15 @@ At first glance, seeing this coin from back in 2014 made it look like it was 201
 
 **Coin Rundown / Pitch**: 
 
-> CUTcoin describes itself as the first CryptoNote-based pure PoS coin. The CUTcoin uses cryptography to enable anonymous transactions. Its Proof of Stake consensus conceals the total amount of coins in staking wallets. The project is the first to have developed privacy tokens (CNT) on it's chain. The tokens deployed on the Cutcoin chain has all privacy features as native CUT tokens and Monero, including RingCT. The CNT token deployment is made so user-friendly that even person without deep technical knowledge in coding or programming can deploy his / her token just by one single command. CUTcoin has its own dedicated staking pool which is managed by official project team. The Cutcoin staking pool provides an opportunity for all small stakers to earn more CUT (Daily) by staking on the official staking pool.
+> CUTcoin describes itself as the first CryptoNote-based pure PoS coin. Its Proof of Stake consensus conceals the total amount of coins in staking wallets. The tokens deployed on the Cutcoin chain has all privacy features as native CUT tokens and Monero, including RingCT. The CNT token deployment is made so user-friendly that even person without deep technical knowledge in coding or programming can deploy his / her token just by one single command. CUTcoin has its own dedicated staking pool which is managed by official project team. The Cutcoin staking pool provides an opportunity for all small stakers to earn more CUT (Daily) by staking on the official staking pool.
 
 **My Impression**: 
 
-A relatively new PoS coin. It had a small premine, 2%. Staking and Transactions are private. Good roadmap. Looks good overall, but not amazing. Hope it gets some traction.
+A relatively new PoS coin. It had a small premine, 2%. Staking and Transactions are private. Good roadmap. Looks good overall, but not amazing.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://cutcoin.org/faqfull](https://cutcoin.org/faqfull)
+*Overall impression*: OK 🙂
 
 ---
-
 
 
 ## *Dero* - DERO
@@ -548,148 +437,97 @@ A relatively new PoS coin. It had a small premine, 2%. Staking and Transactions 
 
 Seems OK. 10% Premine. Nothing amazing jumping out at me, but nothing horribly offensive either. Big shrug here.
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://forum.dero.io/t/lower-the-transaction-fee/174](https://forum.dero.io/t/lower-the-transaction-fee/174)
+*Overall impression*: Neutral 😐
 
 ---
-
 
 ## Excluded "Privacy" Coins
 
-
 ### *Litecoin* - LTC
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Wait, why is Litecoin here? Well, there's a MimbleWimble implementation that's coming soon. I don't want to add to the list as it's not fully realized yet. However, leaving it fully out feels like a disservice.
 
-**References**:
-- [https://beincrypto.com/litecoin-completes-mimblewimble-code-ltc-scaling-privacy/](https://beincrypto.com/litecoin-completes-mimblewimble-code-ltc-scaling-privacy/)
-- [https://decrypt.co/56296/litecoin-is-getting-closer-to-adding-mimblewimbles-privacy-features](https://decrypt.co/56296/litecoin-is-getting-closer-to-adding-mimblewimbles-privacy-features)
-
 ---
-
 
 
 ### *Dash* - DASH
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 It seems to be a decent coin with some minimal extra privacy sprinkles. Its PrivateSend feature is just a mediocre CoinJoin implementation.
 
-**References**:
-- [https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private](https://bitcoinmagazine.com/culture/battle-privacycoins-why-dash-not-really-private)
-- [https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/](https://news.bitcoin.com/not-so-private-99-of-zcash-and-dash-transactions-traceable-says-chainalysis/)
-- [https://coinsutra.com/transaction-speeds/](https://coinsutra.com/transaction-speeds/)
-- [https://bitinfocharts.com/comparison/dash-transactionfees.html](https://bitinfocharts.com/comparison/dash-transactionfees.html)
-
 ---
-
 
 
 ### *Decred* - DCR
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 This coin's public ledger has amounts, senders, and recipients. Staking uses a mixnet. Transactions can optionally use a baked in CoinJoin implementation. 
 
-**References**:
-- [https://blog.decred.org/2019/08/28/Iterating-Privacy/](https://blog.decred.org/2019/08/28/Iterating-Privacy/)
-- [https://blog.decred.org/2020/06/02/A-More-Private-Way-to-Stake/](https://blog.decred.org/2020/06/02/A-More-Private-Way-to-Stake/)
-- [https://medium.com/@blockblogfr/top-6-cryptocurrencies-with-the-highest-median-fees-f0d1662a16aa](https://medium.com/@blockblogfr/top-6-cryptocurrencies-with-the-highest-median-fees-f0d1662a16aa)
-
 ---
-
 
 
 ### *DigiByte* - DGB
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Can't find much in the way of good info on the privacy features in this project. Doesn't seem like a privacy coin, but does use Dandelion++
 
-
-
-
 ---
-
 
 
 ### *Counos X* - CCXX
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
-Might be a fine pseudo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.
-
-**References**:
-- [https://cryptocoin.news/press-releases/heres-why-you-should-choose-counos-x-for-your-financial-transfers-46095/](https://cryptocoin.news/press-releases/heres-why-you-should-choose-counos-x-for-your-financial-transfers-46095/)
-- [https://www.counos.io/CounosX](https://www.counos.io/CounosX)
+I'm almost certain cryptoslate must have mistyped the ticker "CCX". CCXX might be a fine pseudo-stablecoin, it's hard to tell. I can't find any mention of privacy tech on their website beyond a very vague poorly worded statement.
 
 ---
-
 
 
 ### *AXEL* - AXEL
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Not quite sure why this was listed as a privacy coin, but ok. It seems like it's just a blockchain on top of a centralized file database?
 
-**References**:
-- [https://www.axel.org/](https://www.axel.org/)
-
 ---
-
 
 
 ### *Aeternity* - AE
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Looks like this is not a privacy coin. It just mentions that the data is encrypted when it's being used during computation and transfer?
 
-
-
-
 ---
-
 
 
 ### *Groestlcoin* - GRS
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Doesn't look like a privacy coin. It looks like there's some nodes with TOR and that might be why it was marked.
 
-**References**:
-- [https://www.groestlcoin.org/what-is-groestlcoin-backed-by/](https://www.groestlcoin.org/what-is-groestlcoin-backed-by/)
-
 ---
-
 
 
 ### *Apollo Currency* - APL
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 This project really feels like it's trying to bend the truth to make it look like a better project than what it is. I wish I could tell you what they use to send their "private" transactions, but I can't find any details. Getting some zombocom vibes. I'd personally avoid it.
-
-**References**:
-- [https://aplfintech.com/apollo-currency/](https://aplfintech.com/apollo-currency/)
 
 ---
 
 
-
 ### *Vertcoin* - VTC
 
-**Why this coin isn't with the other privacy coins?**: 
+**Why is this coin here?**: 
 
 Basically a Litecoin fork. The only mention of a privacy feature is specifically in the wallet with stealth addresses from Coin Market Cap. I don't see any details on the website. It looks like this has been 51% attacked frequently. The only thing remotely interesting is one-click mining, and that's a stretch. This project looks like some bags.
-
-
-
 
 ---

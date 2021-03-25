@@ -5,7 +5,7 @@
 
 **Privacy**: Full - Lelantus, Dandelion++ 
 
-**Transaction Stats**: 5 min block time **/** ? transactions per second **/** none? fee
+**Transaction Stats**: 5 min block time **/** ~14? transactions per second **/** ~0.0005 Firo fee
 
 **Coin Rundown / Pitch**: 
 
@@ -13,13 +13,8 @@
 
 **My Impression**: 
 
-Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles of other coins (smart contracts, atomic swaps, etc). A quick fix from the devs against a 51% attack is a good sign that this coin has a future. It's not a terribly exciting project, but it seems strong and I want to see where it goes.
+Seems like the privacy-first tech used here is stronger than RingCT & CryptoNote, while not requiring a trusted setup unlike zk-SNARKs. The "burn and mint" strategy is novel and kind of cool. It's a pretty straight-forward coin without a lot of the other bells and whistles. It's early for Lelantus so it's not as battle tested, which is a concern.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://firo.org/guide/privacy-technology-comparison.html](https://firo.org/guide/privacy-technology-comparison.html)
-- [https://firo.org/2021/01/28/chainlocks-activated-mainnet.html](https://firo.org/2021/01/28/chainlocks-activated-mainnet.html)
-- [https://www.coinbureau.com/review/zcoin-xzc/](https://www.coinbureau.com/review/zcoin-xzc/)
+*Overall impression*: Good 😃
 
 ---

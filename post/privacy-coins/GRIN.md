@@ -13,14 +13,8 @@
 
 **My Impression**: 
 
-Grin is my second favorite coin of the three MimbleWimble variants. Its team is more decentralized and community driven instead of a startup like Beam. For better or worse, this coin has a linear inflation rate with 1 grin being minted every second. The features and roadmap are less and smaller in scope than BEAM. However, this is still a travesty that this coin doesn't have more love than some of the others in this list.
+Grin is my second favorite coin of the three MimbleWimble variants. Its team is more decentralized and community driven instead of a startup like Beam. The features and roadmap are smaller than BEAM. However, this is still a great looking private currency overall.
 
-*How do I feel about this project?* Good 🙂
-
-**References**:
-- [https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9](https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9)
-- [https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/](https://news.bitcoin.com/researcher-breaks-mimblewimble-deanonymizing-96-of-grin-transactions/)
-- [https://www.coinbureau.com/review/grin-coin/](https://www.coinbureau.com/review/grin-coin/)
-- [https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2](https://medium.com/@realsimplecrypto/beam-vs-grin-a-complete-comparison-26bf416598f2)
+*Overall impression*: Good 😃
 
 ---

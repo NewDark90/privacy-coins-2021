@@ -15,9 +15,6 @@
 
 Like ETH, if the tokens used a quicker zk-SNARKs (Super-ZK) implementation. I can't tell if the coin itself has its transactions protected by Super-ZK, and if it's Opt-In or not. It's also unclear if it requires a trusted setup, which to my knowledge, a zk-SNARK implementation does. Without knowing those details, this coin is a hard pass for me.
 
-*How do I feel about this project?* Unsure / DYOR 😕
-
-
-
+*Overall impression*: Unsure / DYOR 😕
 
 ---

@@ -13,11 +13,8 @@
 
 **My Impression**: 
 
-Based on Monero. Seems like the project is more of a set of developer building blocks for private blockchain-based applications. I like the concept, but hard to say how good the use case is.
+Seems like the project is more of a set of developer building blocks for private blockchain-based applications. I like the concept, but will the developers come?
 
-*How do I feel about this project?* Neutral 😐
-
-**References**:
-- [https://docs.oxen.io/about-the-oxen-blockchain/overview](https://docs.oxen.io/about-the-oxen-blockchain/overview)
+*Overall impression*: Neutral 😐
 
 ---

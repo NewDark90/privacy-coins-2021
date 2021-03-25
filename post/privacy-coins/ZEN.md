@@ -5,7 +5,7 @@
 
 **Privacy**: Opt-In - zk-SNARKs 
 
-**Transaction Stats**: 2.5 min block time **/** undefined transactions per second **/** ? fee
+**Transaction Stats**: 2.5 min block time **/** ? transactions per second **/** ? fee
 
 **Coin Rundown / Pitch**: 
 
@@ -13,11 +13,8 @@
 
 **My Impression**: 
 
-Opt-In zk-SNARKs implementation... wait, is this ZCash? No? Ok. Blockchains on blockchains? Sounds cool, but I don't know what to make of it. Hard to dig up details on this one.
+Opt-In zk-SNARKs, but with [blockchains on your blockchain?](https://i.imgur.com/m8DNm5i.jpg) Sounds cool, but I don't know if that's a good enough reason to use it over others.
 
-*How do I feel about this project?* Neutral 😐
-
-
-
+*Overall impression*: OK 🙂
 
 ---

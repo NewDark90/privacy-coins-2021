@@ -11,6 +11,7 @@ const stats = {
     lists: [
         { "great": privacyCoins.filter(c => c.impression.short == "Great").map(c => c.ticker).join(", ") },
         { "good": privacyCoins.filter(c => c.impression.short == "Good").map(c => c.ticker).join(", ") },
+        { "ok": privacyCoins.filter(c => c.impression.short == "OK").map(c => c.ticker).join(", ") },
         { "neutral": privacyCoins.filter(c => c.impression.short == "Neutral").map(c => c.ticker).join(", ") },
         { "wary": privacyCoins.filter(c => c.impression.short == "Wary").map(c => c.ticker).join(", ") },
         { "yikes": privacyCoins.filter(c => c.impression.short != "Great" &&  c.impression.short != "Good" &&   c.impression.short != "Neutral" &&   c.impression.short != "Wary" && c.impression.short != "Unsure" ).map(c => c.ticker).join(", ") },
